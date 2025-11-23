@@ -1,0 +1,965 @@
+path,label,spk,text
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_8670_10670.wav,Control,Control-2,"Η κυρία Ελένη πλένει τα πιάτα της, ενώ συγχρόνως τρέχουν τα νερά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_10670_12670.wav,Control,Control-2,"Η κυρία Ελένη πλένει τα πιάτα της, ενώ συγχρόνως τρέχουν τα νερά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_12670_14670.wav,Control,Control-2,"Η κυρία Ελένη πλένει τα πιάτα της, ενώ συγχρόνως τρέχουν τα νερά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_14670_16670.wav,Control,Control-2,"Η κυρία Ελένη πλένει τα πιάτα της, ενώ συγχρόνως τρέχουν τα νερά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_16670_18670.wav,Control,Control-2,"Η κυρία Ελένη πλένει τα πιάτα της, ενώ συγχρόνως τρέχουν τα νερά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_18670_20670.wav,Control,Control-2,"Η κυρία Ελένη πλένει τα πιάτα της, ενώ συγχρόνως τρέχουν τα νερά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_22610_24610.wav,Control,Control-2,Αυτό είναι η προσεξία ενός παιδιού .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_25980_27980.wav,Control,Control-2,Και η αμέλεια της νοικοκυράς που δεν βλέπει τι γέμισε ο νεροχύτης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_27980_29980.wav,Control,Control-2,Και η αμέλεια της νοικοκυράς που δεν βλέπει τι γέμισε ο νεροχύτης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/cookie/cookie_29980_31980.wav,Control,Control-2,Και η αμέλεια της νοικοκυράς που δεν βλέπει τι γέμισε ο νεροχύτης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_1900_3900.wav,Control,Control-2,Και περιγράψτε μου πρώτα πώς σας βλέπετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_3860_5860.wav,Control,Control-2,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_7460_9460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_9460_11460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_11460_13460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_13460_15460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_15460_17460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_17460_19460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_19460_21460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_21460_23460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_23460_25460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_25460_27460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_27460_29460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_29460_31460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_31460_33460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/house/house_33460_35460.wav,Control,Control-2,"Ένα σπίτι, μάλλον σε στυλ μεξικάνικο, το οποίο είχε πέντε-έξι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_620_2620.wav,Control,Control-2,Θα αναλάβετε τις παρακάτω προτάσεις μία κάθε φορά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_6780_8780.wav,Control,Control-2,Ένα καλοκαίρι και τα τέσσερα αδέρφια του Αντώνη φιλοξενούνται για
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_8780_10780.wav,Control,Control-2,Ένα καλοκαίρι και τα τέσσερα αδέρφια του Αντώνη φιλοξενούνται για
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_10780_12780.wav,Control,Control-2,Ένα καλοκαίρι και τα τέσσερα αδέρφια του Αντώνη φιλοξενούνται για
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_12780_14780.wav,Control,Control-2,Ένα καλοκαίρι και τα τέσσερα αδέρφια του Αντώνη φιλοξενούνται για
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_14780_16780.wav,Control,Control-2,Ένα καλοκαίρι και τα τέσσερα αδέρφια του Αντώνη φιλοξενούνται για
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_20030_22030.wav,Control,Control-2,Στο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_20360_22360.wav,Control,Control-2,Σπίτι των θείων .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_21140_23140.wav,Control,Control-2,Τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_23120_25120.wav,Control,Control-2,Οι γονείς του Αντώνη ζουν στην .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_24940_26940.wav,Control,Control-2,Αίγυπτο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_28360_30360.wav,Control,Control-2,Εκείνο το καλοκαίρι δεν μπόρεσαν να ταξιδέψουν Έτσι ο Αντώνης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_30360_32360.wav,Control,Control-2,Εκείνο το καλοκαίρι δεν μπόρεσαν να ταξιδέψουν Έτσι ο Αντώνης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_32360_34360.wav,Control,Control-2,Εκείνο το καλοκαίρι δεν μπόρεσαν να ταξιδέψουν Έτσι ο Αντώνης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_34360_36360.wav,Control,Control-2,Εκείνο το καλοκαίρι δεν μπόρεσαν να ταξιδέψουν Έτσι ο Αντώνης
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_42920_44920.wav,Control,Control-2,Βλέκει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_43680_45680.wav,Control,Control-2,Σε αυτές και τα αδέρφια του .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_46220_48220.wav,Control,Control-2,Παρασύροντάς τους στο τέλος την .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_48340_50340.wav,Control,Control-2,Αυστήρη τιμωρία της θείας τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_50340_52340.wav,Control,Control-2,Αυστήρη τιμωρία της θείας τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_52340_54340.wav,Control,Control-2,Αυστήρη τιμωρία της θείας τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_54500_56500.wav,Control,Control-2,Αυτό μας που κερδίζει το καθοσμό όλων .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_57220_59220.wav,Control,Control-2,Αυτό όμως που κερδίζει το θαυμασμό όλων είναι σίγουρα η αγελιότητα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_59220_61220.wav,Control,Control-2,Αυτό όμως που κερδίζει το θαυμασμό όλων είναι σίγουρα η αγελιότητα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_61220_63220.wav,Control,Control-2,Αυτό όμως που κερδίζει το θαυμασμό όλων είναι σίγουρα η αγελιότητα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_63220_65220.wav,Control,Control-2,Αυτό όμως που κερδίζει το θαυμασμό όλων είναι σίγουρα η αγελιότητα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_65220_67220.wav,Control,Control-2,Αυτό όμως που κερδίζει το θαυμασμό όλων είναι σίγουρα η αγελιότητα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_67220_69220.wav,Control,Control-2,Αυτό όμως που κερδίζει το θαυμασμό όλων είναι σίγουρα η αγελιότητα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_70150_72150.wav,Control,Control-2,Πώς το είπες ?
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_71780_73780.wav,Control,Control-2,Ακεραιότητα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_72620_74620.wav,Control,Control-2,Η αγκεραιότητα του χαρακτήρα του .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_74540_76540.wav,Control,Control-2,Όταν για χάρη της αλήθειας παραδέχεται κάθετο ταξίδι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-2/sentences/sentences_80210_82210.wav,Control,Control-2,Όταν για χάρη της αλήθειας παραδέχεται την κάθετο ταξία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_0_2000.wav,Control,Control-692,Το γυμνάσιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_2000_4000.wav,Control,Control-692,Τόσο καλά !
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_3320_5320.wav,Control,Control-692,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_5080_7080.wav,Control,Control-692,Καλά τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_8880_10880.wav,Control,Control-692,Λάστα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_13620_15620.wav,Control,Control-692,Παρακολουθήσατε στην Αμερική δύο χρόνια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_18160_20160.wav,Control,Control-692,Τι παρακολουθήσατε δύο χρόνια ?
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_22300_24300.wav,Control,Control-692,Κοινωνιολογία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_23680_25680.wav,Control,Control-692,Μα ο παρεμφερές επάγγελμα ε !
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_26540_28540.wav,Control,Control-692,Επειδή ασχολούμαι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_28000_30000.wav,Control,Control-692,"Τυχαίνουμε το σώμα ελληνίδων, οδηγώνουμε παιδιά ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_36820_38820.wav,Control,Control-692,"Λοιπόν, αυτό το βραχελάκι θα το φορέσουμε τώρα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_40700_42700.wav,Control,Control-692,Φόβησε το .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_42620_44620.wav,Control,Control-692,Και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_44400_46400.wav,Control,Control-692,Αμέσως μετά θα το ορθελίωσμα θα το βγάλουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_46400_48400.wav,Control,Control-692,Αμέσως μετά θα το ορθελίωσμα θα το βγάλουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_49920_51920.wav,Control,Control-692,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_60340_62340.wav,Control,Control-692,Έρθει να δονηθεί λίγο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_67780_69780.wav,Control,Control-692,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_70640_72640.wav,Control,Control-692,Λοιπόν θέλω να σηκωθείτε και εκείνο το χαρτάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_72640_74640.wav,Control,Control-692,Λοιπόν θέλω να σηκωθείτε και εκείνο το χαρτάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_75440_77440.wav,Control,Control-692,Εκεί ένα κίτρινο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_77920_79920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_79920_81920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_81920_83920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_83920_85920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_85920_87920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_87920_89920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_89920_91920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_91920_93920.wav,Control,Control-692,Λίγο πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_110770_112770.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_112770_114770.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_114770_116770.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_117810_119810.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_119810_121810.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_121810_123810.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_123810_125810.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_125810_127810.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_127810_129810.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_130870_132870.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_131790_133790.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_134470_136470.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_145430_147430.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_146070_148070.wav,Control,Control-692,Πιο πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_148070_150070.wav,Control,Control-692,Πιο πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_150070_152070.wav,Control,Control-692,Πιο πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_152070_154070.wav,Control,Control-692,Πιο πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_225820_227820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_227820_229820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_229820_231820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_231820_233820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_233820_235820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_235820_237820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_237820_239820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_239820_241820.wav,Control,Control-692,Πιο πιο [/] πιο π πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_252140_254140.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_254140_256140.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_256140_258140.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_258140_260140.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_260140_262140.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_262140_264140.wav,Control,Control-692,Π πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_277140_279140.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_279140_281140.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_281140_283140.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_288380_290380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_290380_292380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_292380_294380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_294380_296380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_296380_298380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_298380_300380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_300380_302380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_302380_304380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_304380_306380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_306380_308380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_308380_310380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_310380_312380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_312380_314380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_314380_316380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_316380_318380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_318380_320380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_320380_322380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_322380_324380.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο [/] πιο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_328870_330870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_330870_332870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_332870_334870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_334870_336870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_336870_338870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_338870_340870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_340870_342870.wav,Control,Control-692,Πιο π πιο [/] πιο [/] πιο [/] πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_345470_347470.wav,Control,Control-692,Πιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_359650_361650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_361650_363650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_363650_365650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_365650_367650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_367650_369650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_369650_371650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_371650_373650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_373650_375650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_375650_377650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_377650_379650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_379650_381650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_381650_383650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_383650_385650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_385650_387650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_387650_389650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_389650_391650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_391650_393650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_393650_395650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_395650_397650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_397650_399650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_399650_401650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_401650_403650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_403650_405650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_405650_407650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_407650_409650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_409650_411650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_411650_413650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_413650_415650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_415650_417650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_417650_419650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_419650_421650.wav,Control,Control-692,πιο π .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_488650_490650.wav,Control,Control-692,Ναι να συνεχίσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_490670_492670.wav,Control,Control-692,", λαυράκι, σωρομός ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_497230_499230.wav,Control,Control-692,Ωραία σωστά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_499150_501150.wav,Control,Control-692,Πολύ ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_500450_502450.wav,Control,Control-692,Τώρα θέλω από το τριακόσια τέσσερα έως το διακόσια ογδόντα πέντε να
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_502450_504450.wav,Control,Control-692,Τώρα θέλω από το τριακόσια τέσσερα έως το διακόσια ογδόντα πέντε να
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_504450_506450.wav,Control,Control-692,Τώρα θέλω από το τριακόσια τέσσερα έως το διακόσια ογδόντα πέντε να
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_506450_508450.wav,Control,Control-692,Τώρα θέλω από το τριακόσια τέσσερα έως το διακόσια ογδόντα πέντε να
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_508810_510810.wav,Control,Control-692,Ένα-ένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_510370_512370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_512370_514370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_514370_516370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_516370_518370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_518370_520370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_520370_522370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_522370_524370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_524370_526370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_526370_528370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_528370_530370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_530370_532370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_532370_534370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_534370_536370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_536370_538370.wav,Control,Control-692,"Λοιπόν, τριακόσια τέσσερα, τριακόσια τρία, τριακόσια δύο, τριακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_540910_542910.wav,Control,Control-692,Τώρα θέλω να μου πείτε ένα ευχάριστο γεγονός που σας έρχεται στο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_548160_550160.wav,Control,Control-692,Το ότι τις φιλνάδες μου οι αγγονοί έκαναν δεύτερο παιδάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_550160_552160.wav,Control,Control-692,Το ότι τις φιλνάδες μου οι αγγονοί έκαναν δεύτερο παιδάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_552160_554160.wav,Control,Control-692,Το ότι τις φιλνάδες μου οι αγγονοί έκαναν δεύτερο παιδάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_555340_557340.wav,Control,Control-692,Το μόνο γιατί όλοι οι άλλοι είμαστε πολύ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_557900_559900.wav,Control,Control-692,Καλοί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_558380_560380.wav,Control,Control-692,Τώρα θέλω να μου πείτε ένα δυσάρεστο γεγονός που σας έρχεται στο
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_561740_563740.wav,Control,Control-692,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_561900_563900.wav,Control,Control-692,Αυτό είναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_562980_564980.wav,Control,Control-692,Μπήκε ένας κολλητός μου φίλος στο νοσοκομείο αύριο χειρίζεται με
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_564980_566980.wav,Control,Control-692,Μπήκε ένας κολλητός μου φίλος στο νοσοκομείο αύριο χειρίζεται με
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_566980_568980.wav,Control,Control-692,Μπήκε ένας κολλητός μου φίλος στο νοσοκομείο αύριο χειρίζεται με
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_572440_574440.wav,Control,Control-692,"Ωραία, τώρα θέλω να μου πείτε τι κάνετε σήμερα το πρωί ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_576050_578050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_578050_580050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_580050_582050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_582050_584050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_584050_586050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_586050_588050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_588050_590050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_590050_592050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_592050_594050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_594050_596050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_596050_598050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_598050_600050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_600050_602050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_602050_604050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_604050_606050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_606050_608050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_608050_610050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_610050_612050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_612050_614050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_614050_616050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_616050_618050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_618050_620050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_620050_622050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_622050_624050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-692/default/default_624050_626050.wav,Control,Control-692,"Λοιπόν, σηκώθηκα, ήπια το τσιγάρο μου, πήγα το αλέτα, λεπτομέρειες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_47740_49740.wav,Control,Control-725,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_48420_50420.wav,Control,Control-725,"Θέλω να σηκωθείτε εκεί στο κίτρινο χαρτάκι, να περπατήσετε μέχρι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_50420_52420.wav,Control,Control-725,"Θέλω να σηκωθείτε εκεί στο κίτρινο χαρτάκι, να περπατήσετε μέχρι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_52420_54420.wav,Control,Control-725,"Θέλω να σηκωθείτε εκεί στο κίτρινο χαρτάκι, να περπατήσετε μέχρι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_54420_56420.wav,Control,Control-725,"Θέλω να σηκωθείτε εκεί στο κίτρινο χαρτάκι, να περπατήσετε μέχρι"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_59400_61400.wav,Control,Control-725,"Ναι, μέχρι ευθεία εκεί ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_61940_63940.wav,Control,Control-725,Περιμένετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_62520_64520.wav,Control,Control-725,Να περπατήσουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_63700_65700.wav,Control,Control-725,"Ναι, ναι, πάμε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_82600_84600.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_83920_85920.wav,Control,Control-725,Ελάτε τώρα εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_86280_88280.wav,Control,Control-725,Θέλω από το τριακόσια τέσσερα να αφαιρέσετε δεκάδες έως το διακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_88280_90280.wav,Control,Control-725,Θέλω από το τριακόσια τέσσερα να αφαιρέσετε δεκάδες έως το διακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_90280_92280.wav,Control,Control-725,Θέλω από το τριακόσια τέσσερα να αφαιρέσετε δεκάδες έως το διακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_94020_96020.wav,Control,Control-725,τριακόσια τέσσερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_94720_96720.wav,Control,Control-725,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_95200_97200.wav,Control,Control-725,"Μειον δέκα, μειον δέκα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_96640_98640.wav,Control,Control-725,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_97940_99940.wav,Control,Control-725,"τριακόσια τέσσερα, διακόσια ενενήντα τέσσερα, διακόσια οκτώ"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_99940_101940.wav,Control,Control-725,"τριακόσια τέσσερα, διακόσια ενενήντα τέσσερα, διακόσια οκτώ"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_103520_105520.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_103760_105760.wav,Control,Control-725,Στοπ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_104840_106840.wav,Control,Control-725,"Λοιπόν, τώρα θέλω να περπατήσετε μέχρι τον τοίχο να γυρίσετε και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_106840_108840.wav,Control,Control-725,"Λοιπόν, τώρα θέλω να περπατήσετε μέχρι τον τοίχο να γυρίσετε και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_110940_112940.wav,Control,Control-725,Να περπατήσω για να κάνω την .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_112380_114380.wav,Control,Control-725,Αφαίρεση Ναι ταυτόχρονα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_115920_117920.wav,Control,Control-725,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_116680_118680.wav,Control,Control-725,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_117340_119340.wav,Control,Control-725,τριακόσια τέσσερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_118280_120280.wav,Control,Control-725,"διακόσια ενενήντα τέσσερα, διακόσια οκτώ τέσσερα, διακόσια ενενήντα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_120280_122280.wav,Control,Control-725,"διακόσια ενενήντα τέσσερα, διακόσια οκτώ τέσσερα, διακόσια ενενήντα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_122280_124280.wav,Control,Control-725,"διακόσια ενενήντα τέσσερα, διακόσια οκτώ τέσσερα, διακόσια ενενήντα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_125180_127180.wav,Control,Control-725,Ωραία [/] Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_127180_129180.wav,Control,Control-725,Ωραία [/] Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_129180_131180.wav,Control,Control-725,Ωραία [/] Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_131180_133180.wav,Control,Control-725,Ωραία [/] Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_134870_136870.wav,Control,Control-725,Ελάτε εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_143240_145240.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_145890_147890.wav,Control,Control-725,"Ελάτε Ωραία Ελάτε Τώρα, θα λέω μία πρόταση κύριε Στέφανε, και θέλω"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_147890_149890.wav,Control,Control-725,"Ελάτε Ωραία Ελάτε Τώρα, θα λέω μία πρόταση κύριε Στέφανε, και θέλω"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_149890_151890.wav,Control,Control-725,"Ελάτε Ωραία Ελάτε Τώρα, θα λέω μία πρόταση κύριε Στέφανε, και θέλω"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_151890_153890.wav,Control,Control-725,"Ελάτε Ωραία Ελάτε Τώρα, θα λέω μία πρόταση κύριε Στέφανε, και θέλω"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_154170_156170.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_158840_160840.wav,Control,Control-725,Ελάτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_159940_161940.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_165240_167240.wav,Control,Control-725,Ωραία Ελάτε εδώ Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_167240_169240.wav,Control,Control-725,Ωραία Ελάτε εδώ Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_169240_171240.wav,Control,Control-725,Ωραία Ελάτε εδώ Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_172760_174760.wav,Control,Control-725,Ελάτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_185020_187020.wav,Control,Control-725,Ωραία Ελάτε Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_187640_189640.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_188320_190320.wav,Control,Control-725,Ελάτε εδώ Ωραία εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_191580_193580.wav,Control,Control-725,<Ωραία Ελάτε Ωραία Ελάτε> [/] Ωραία Ελάτε εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_193840_195840.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_194160_196160.wav,Control,Control-725,εδώ Ελάτε εδώ Ωραία Ελάτε εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_198620_200620.wav,Control,Control-725,Ωραία εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_206280_208280.wav,Control,Control-725,Ωραία Ελάτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_208180_210180.wav,Control,Control-725,"Πάντα πίσω από την ΑΝΕΠΕ, πάντα είναι ξανά νερό +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_210180_212180.wav,Control,Control-725,"Πάντα πίσω από την ΑΝΕΠΕ, πάντα είναι ξανά νερό +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_212180_214180.wav,Control,Control-725,"Πάντα πίσω από την ΑΝΕΠΕ, πάντα είναι ξανά νερό +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_214180_216180.wav,Control,Control-725,"Πάντα πίσω από την ΑΝΕΠΕ, πάντα είναι ξανά νερό +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_216180_218180.wav,Control,Control-725,"Πάντα πίσω από την ΑΝΕΠΕ, πάντα είναι ξανά νερό +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_222490_224490.wav,Control,Control-725,Άσπρη πέτρα ξεξασπρή και απ'τον ήλιο ξεξασπρότερη +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_224490_226490.wav,Control,Control-725,Άσπρη πέτρα ξεξασπρή και απ'τον ήλιο ξεξασπρότερη +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_231830_233830.wav,Control,Control-725,Σπίτι του κύριου Δημήτρη είναι χαριτωμένο +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_235030_237030.wav,Control,Control-725,Σπίτι του κυρίου Δημήτρη είναι χαριτωμένο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_237730_239730.wav,Control,Control-725,Ο Κώστας αγόρασε γάλα και τυρί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_240930_242930.wav,Control,Control-725,Κώστας αγόρασε γάλα και τυρί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_244390_246390.wav,Control,Control-725,"Ευχαριστώ, θα δώσω το ξύλο ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_249270_251270.wav,Control,Control-725,"Λοιπόν, θέλω να μου πείτε τι είναι αυτά τα ζώα εδώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_251270_253270.wav,Control,Control-725,"Λοιπόν, θέλω να μου πείτε τι είναι αυτά τα ζώα εδώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_253270_255270.wav,Control,Control-725,"Λοιπόν, θέλω να μου πείτε τι είναι αυτά τα ζώα εδώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_255270_257270.wav,Control,Control-725,"Λοιπόν, θέλω να μου πείτε τι είναι αυτά τα ζώα εδώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_260270_262270.wav,Control,Control-725,"Λιοντάρι, ρινόκερος και καμίνα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_263710_265710.wav,Control,Control-725,Τέλειο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_272940_274940.wav,Control,Control-725,Θέλω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_273720_275720.wav,Control,Control-725,Να μου πείτε τώρα τι βλέπετε σε αυτήν την αντίκτηνη εικόνα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_284380_286380.wav,Control,Control-725,Λιοντάρι με τη Λιονταρίνα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_286380_288380.wav,Control,Control-725,Λιοντάρι με τη Λιονταρίνα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_288380_290380.wav,Control,Control-725,Λιοντάρι με τη Λιονταρίνα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_294840_296840.wav,Control,Control-725,Αυτό δεν ξέρω τι είναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_297180_299180.wav,Control,Control-725,Και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_299840_301840.wav,Control,Control-725,Τι κάνουνε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_313880_315880.wav,Control,Control-725,Βλέπουν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_314660_316660.wav,Control,Control-725,Σε κάποια κατεύθυνση κάτι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_317460_319460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_319460_321460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_321460_323460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_323460_325460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_325460_327460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_327460_329460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_329460_331460.wav,Control,Control-725,Μήπως φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_332330_334330.wav,Control,Control-725,Δεν φαίνεται ότι φάγανε τον κυνήγιο τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_338790_340790.wav,Control,Control-725,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_339220_341220.wav,Control,Control-725,Πολύ ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_342710_344710.wav,Control,Control-725,"Τώρα, θέλω σε ένα λεπτό να μου πείτε όσο το δυνατόν περισσότερες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_344710_346710.wav,Control,Control-725,"Τώρα, θέλω σε ένα λεπτό να μου πείτε όσο το δυνατόν περισσότερες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_346710_348710.wav,Control,Control-725,"Τώρα, θέλω σε ένα λεπτό να μου πείτε όσο το δυνατόν περισσότερες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_348710_350710.wav,Control,Control-725,"Τώρα, θέλω σε ένα λεπτό να μου πείτε όσο το δυνατόν περισσότερες"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_351310_353310.wav,Control,Control-725,Χρήστος .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_351910_353910.wav,Control,Control-725,Όχι δεν θέλω ονόματα να μου πείτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_354810_356810.wav,Control,Control-725,Μόνο λέξεις όχι ονόματα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_356750_358750.wav,Control,Control-725,Λέξεις .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_357410_359410.wav,Control,Control-725,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_360640_362640.wav,Control,Control-725,Χαρά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_362200_364200.wav,Control,Control-725,Χαίρομαι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_366080_368080.wav,Control,Control-725,Χρειάζομαι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_368380_370380.wav,Control,Control-725,Χορεύω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_372460_374460.wav,Control,Control-725,Χείμω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_377300_379300.wav,Control,Control-725,Χαϊδεύω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_380120_382120.wav,Control,Control-725,Χορετεύω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_384940_386940.wav,Control,Control-725,Χόρτο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_388040_390040.wav,Control,Control-725,Χαρά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_393140_395140.wav,Control,Control-725,Είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_393900_395900.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_405470_407470.wav,Control,Control-725,Ξέρει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_417480_419480.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_419400_421400.wav,Control,Control-725,Θέλω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_420320_422320.wav,Control,Control-725,Να μου πείτε τώρα ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_421720_423720.wav,Control,Control-725,Όσο περισσότερα ζώα μπορείτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_424300_426300.wav,Control,Control-725,Ζώα Από κάποιο γράμμα ή +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_427500_429500.wav,Control,Control-725,Από οποιοδήποτε γράμμα και αν αρχίζει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_431540_433540.wav,Control,Control-725,Λιοντάρια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_434280_436280.wav,Control,Control-725,Καμιλοπάρδαλης Ρινόκερος .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_443310_445310.wav,Control,Control-725,Ρινόκερος Καμίλα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_445730_447730.wav,Control,Control-725,Λάτα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_450310_452310.wav,Control,Control-725,Βόδι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_453130_455130.wav,Control,Control-725,Βουβάλι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_454390_456390.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_456390_458390.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_458390_460390.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_460390_462390.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_462390_464390.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_464390_466390.wav,Control,Control-725,Τι είπαμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_472070_474070.wav,Control,Control-725,Σκύλος Λάτα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_485290_487290.wav,Control,Control-725,Χείρος Βουρούμπι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_497070_499070.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_497490_499490.wav,Control,Control-725,Στο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_499190_501190.wav,Control,Control-725,Τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_500050_502050.wav,Control,Control-725,Θέλω από τη τριακόσια τέσσερα να μετρήσετε αντίστροφα φερώντας ένα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_502050_504050.wav,Control,Control-725,Θέλω από τη τριακόσια τέσσερα να μετρήσετε αντίστροφα φερώντας ένα
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_506410_508410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_508410_510410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_510410_512410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_512410_514410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_514410_516410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_516410_518410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_518410_520410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_520410_522410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_522410_524410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_524410_526410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_526410_528410.wav,Control,Control-725,"τριακόσια τρία, τριακόσια δύο, τριακόσια ένα, τριακόσια, διακόσια"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_530070_532070.wav,Control,Control-725,"διακόσια ογδόντα έξι, διακόσια ογδόντα πέντε, διακόσια οκτώ τέσσερα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_533390_535390.wav,Control,Control-725,Ευχαριστώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_548860_550860.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_551200_553200.wav,Control,Control-725,Τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_552060_554060.wav,Control,Control-725,Θέλω να μου πείτε ευχάριστο γεγονός που σας έρχεται στο μυαλό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_554060_556060.wav,Control,Control-725,Θέλω να μου πείτε ευχάριστο γεγονός που σας έρχεται στο μυαλό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_556820_558820.wav,Control,Control-725,Ευχάριστο γεγονός .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_559860_561860.wav,Control,Control-725,Τελευταία έμεινα σε ένα γάμο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_564470_566470.wav,Control,Control-725,Φιλικό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_565140_567140.wav,Control,Control-725,Η ζευγά μου παντρεύτηκε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_567600_569600.wav,Control,Control-725,"Περάσαμε καλά, χορέψαμε, κλεντήσαμε και το ευχαριστήκαμε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_569600_571600.wav,Control,Control-725,"Περάσαμε καλά, χορέψαμε, κλεντήσαμε και το ευχαριστήκαμε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_572600_574600.wav,Control,Control-725,Πολύ ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_573680_575680.wav,Control,Control-725,"Τώρα, θέλω να μου πείτε ένα δυσάρεστο γεγονός που σας έρχεται στο"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_578540_580540.wav,Control,Control-725,Δυσάρεστο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_585560_587560.wav,Control,Control-725,"Δυσάρεστο είναι να βρίσκομαι σε μία σκάλα, πάνω να δουλεύω και να"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_587560_589560.wav,Control,Control-725,"Δυσάρεστο είναι να βρίσκομαι σε μία σκάλα, πάνω να δουλεύω και να"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_589560_591560.wav,Control,Control-725,"Δυσάρεστο είναι να βρίσκομαι σε μία σκάλα, πάνω να δουλεύω και να"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_592760_594760.wav,Control,Control-725,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_593460_595460.wav,Control,Control-725,"Τώρα, θέλω να μου πείτε τι κάνατε σήμερα το πρωί ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_597300_599300.wav,Control,Control-725,"τριάντα ώρα, έκανα το πρωινό"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_599300_601300.wav,Control,Control-725,"τριάντα ώρα, έκανα το πρωινό"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_601300_603300.wav,Control,Control-725,"τριάντα ώρα, έκανα το πρωινό"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_603300_605300.wav,Control,Control-725,"τριάντα ώρα, έκανα το πρωινό"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_605300_607300.wav,Control,Control-725,"τριάντα ώρα, έκανα το πρωινό"
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_609040_611040.wav,Control,Control-725,Δεν χρησιμοποιούσα καθαριότητα σε τέτοιες προσοχές .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_611040_613040.wav,Control,Control-725,Δεν χρησιμοποιούσα καθαριότητα σε τέτοιες προσοχές .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_615310_617310.wav,Control,Control-725,Και άλλο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_617270_619270.wav,Control,Control-725,Και κάναμε ένα διάλειμμα για να έρθουμε εδώ να κάνουμε την εξάρτηση
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_619270_621270.wav,Control,Control-725,Και κάναμε ένα διάλειμμα για να έρθουμε εδώ να κάνουμε την εξάρτηση
+/home/ad_group1/mmda_mme/greek_2s/wav/Control/Control-725/default/default_622090_624090.wav,Control,Control-725,Πολύ ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_3250_5250.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_3950_5950.wav,Dementia,Dementia-65,"Κύριε Γιάννη, ξεκινήστε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_6250_8250.wav,Dementia,Dementia-65,Ξεκινήσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_7290_9290.wav,Dementia,Dementia-65,Εγώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_14830_16830.wav,Dementia,Dementia-65,Ωραία Περιμένετε λίγο εκεί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_17930_19930.wav,Dementia,Dementia-65,Και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_18510_20510.wav,Dementia,Dementia-65,Γυρίστε τώρα πίσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_20850_22850.wav,Dementia,Dementia-65,Γυρίστε πίσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_23070_25070.wav,Dementia,Dementia-65,"Εδώ πέρα, στο χείπο που ξεκινήσατε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_31810_33810.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_33130_35130.wav,Dementia,Dementia-65,"Λοιπόν, τώρα θέλω να μετρήσουμε αντίστροφα από το τριακόσια τέσσερα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_35130_37130.wav,Dementia,Dementia-65,"Λοιπόν, τώρα θέλω να μετρήσουμε αντίστροφα από το τριακόσια τέσσερα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_37130_39130.wav,Dementia,Dementia-65,"Λοιπόν, τώρα θέλω να μετρήσουμε αντίστροφα από το τριακόσια τέσσερα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_39130_41130.wav,Dementia,Dementia-65,"Λοιπόν, τώρα θέλω να μετρήσουμε αντίστροφα από το τριακόσια τέσσερα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_41130_43130.wav,Dementia,Dementia-65,"Λοιπόν, τώρα θέλω να μετρήσουμε αντίστροφα από το τριακόσια τέσσερα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_46550_48550.wav,Dementia,Dementia-65,Δηλαδή να γυρίζω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_47870_49870.wav,Dementia,Dementia-65,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_48230_50230.wav,Dementia,Dementia-65,"Ναι, ναι ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_50070_52070.wav,Dementia,Dementia-65,Να μετρήσουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_51470_53470.wav,Dementia,Dementia-65,Δεξιέριστε λέτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_52410_54410.wav,Dementia,Dementia-65,Δεν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_52950_54950.wav,Dementia,Dementia-65,Μετρήσουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_53290_55290.wav,Dementia,Dementia-65,Όχι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_53990_55990.wav,Dementia,Dementia-65,"Λοιπόν, θέλω να μετρήσετε αντίστροφα από το είκοσι μέχρι το μηδέν"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_55990_57990.wav,Dementia,Dementia-65,"Λοιπόν, θέλω να μετρήσετε αντίστροφα από το είκοσι μέχρι το μηδέν"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_57990_59990.wav,Dementia,Dementia-65,"Λοιπόν, θέλω να μετρήσετε αντίστροφα από το είκοσι μέχρι το μηδέν"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_59990_61990.wav,Dementia,Dementia-65,"Λοιπόν, θέλω να μετρήσετε αντίστροφα από το είκοσι μέχρι το μηδέν"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_63050_65050.wav,Dementia,Dementia-65,Ανά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_63630_65630.wav,Dementia,Dementia-65,δέκα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_64630_66630.wav,Dementia,Dementia-65,Για ξεκινήστε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_68300_70300.wav,Dementia,Dementia-65,Δηλαδή .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_70120_72120.wav,Dementia,Dementia-65,Δηλαδή .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_70720_72720.wav,Dementia,Dementia-65,Αντίστροφα να .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_71640_73640.wav,Dementia,Dementia-65,Μετρήσουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_72580_74580.wav,Dementia,Dementia-65,Ναι ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_77180_79180.wav,Dementia,Dementia-65,Δηλαδή να αρχίσεις από ένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_80680_82680.wav,Dementia,Dementia-65,Να αρχίσεις από το είκοσι και να τελειώσεις από το μηδέν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_88790_90790.wav,Dementia,Dementia-65,"Δηλαδή είκοσι, δεκαεννέα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_93210_95210.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_96150_98150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_98150_100150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_100150_102150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_102150_104150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_104150_106150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_106150_108150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_108150_110150.wav,Dementia,Dementia-65,"δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε, δεκατέσσερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_114870_116870.wav,Dementia,Dementia-65,"δεκατέσσερα, δεκατρία ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_116690_118690.wav,Dementia,Dementia-65,δώδεκα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_124820_126820.wav,Dementia,Dementia-65,"δώδεκα, έντεκα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_126520_128520.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_127240_129240.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα θέλω να μετράτε και να προχωράτε ταυτόχρονα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_129240_131240.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα θέλω να μετράτε και να προχωράτε ταυτόχρονα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_132040_134040.wav,Dementia,Dementia-65,Δηλαδή να προχωρήσετε μέχρι εκείνο το χι και να μετράτε κιόλας
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_134040_136040.wav,Dementia,Dementia-65,Δηλαδή να προχωρήσετε μέχρι εκείνο το χι και να μετράτε κιόλας
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_138140_140140.wav,Dementia,Dementia-65,τρία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_140280_142280.wav,Dementia,Dementia-65,Να γυρίσουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_146270_148270.wav,Dementia,Dementia-65,"επτά, δέκα, έντεκα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_148270_150270.wav,Dementia,Dementia-65,"επτά, δέκα, έντεκα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_150270_152270.wav,Dementia,Dementia-65,"επτά, δέκα, έντεκα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_152270_154270.wav,Dementia,Dementia-65,"επτά, δέκα, έντεκα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_154910_156910.wav,Dementia,Dementia-65,δώδεκα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_155750_157750.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_156230_158230.wav,Dementia,Dementia-65,Και γυρίστε κιόλας .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_161880_163880.wav,Dementia,Dementia-65,Πάλι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_162440_164440.wav,Dementia,Dementia-65,Το ίδιο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_162720_164720.wav,Dementia,Dementia-65,Ναι ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_164800_166800.wav,Dementia,Dementia-65,"δεκατρία, δεκατέσσερα, δεκαπέντε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_172030_174030.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_172610_174610.wav,Dementia,Dementia-65,Ελάτε εκεί στο χι που ξεκινήσατε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_178410_180410.wav,Dementia,Dementia-65,"Δηλαδή, τώρα πώς να ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_179570_181570.wav,Dementia,Dementia-65,Μετρήσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_179990_181990.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_180550_182550.wav,Dementia,Dementia-65,Και τώρα ελάτε εδώ πέρα δίπλα μου .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_182390_184390.wav,Dementia,Dementia-65,Κύριε Γιάννη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_186240_188240.wav,Dementia,Dementia-65,Ελάτε να κάτσετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_187500_189500.wav,Dementia,Dementia-65,Θα σας κάνω τώρα κάποιες ερωτησούλες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_190560_192560.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_191120_193120.wav,Dementia,Dementia-65,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_191580_193580.wav,Dementia,Dementia-65,Εγώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_193580_195580.wav,Dementia,Dementia-65,Εγώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_195820_197820.wav,Dementia,Dementia-65,Θα σας πω κάποιες προτάσεις Αυτό με .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_199000_201000.wav,Dementia,Dementia-65,Σφίγγει τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_200380_202380.wav,Dementia,Dementia-65,Μόλις τελειώσουμε αυτό βγάλουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_202680_204680.wav,Dementia,Dementia-65,Δεν αργούμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_204060_206060.wav,Dementia,Dementia-65,"Λοιπόν, θα σας πω κάποιες προτάσεις και θέλω να τις επαναλάβετε"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_206060_208060.wav,Dementia,Dementia-65,"Λοιπόν, θα σας πω κάποιες προτάσεις και θέλω να τις επαναλάβετε"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_208640_210640.wav,Dementia,Dementia-65,Εντάξει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_210290_212290.wav,Dementia,Dementia-65,Το μόνο που ξέρω είναι ότι ο Γιάννης είναι αυτός που θα βοηθήσει
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_212290_214290.wav,Dementia,Dementia-65,Το μόνο που ξέρω είναι ότι ο Γιάννης είναι αυτός που θα βοηθήσει
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_216440_218440.wav,Dementia,Dementia-65,Το μόνο που ξέρω είναι αυτός ο Γιάννης που να με βοηθήσει σήμερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_218440_220440.wav,Dementia,Dementia-65,Το μόνο που ξέρω είναι αυτός ο Γιάννης που να με βοηθήσει σήμερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_221120_223120.wav,Dementia,Dementia-65,Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν σκυλιά
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_223120_225120.wav,Dementia,Dementia-65,Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν σκυλιά
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_225120_227120.wav,Dementia,Dementia-65,Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν σκυλιά
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_237500_239500.wav,Dementia,Dementia-65,Άσπρη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_238360_240360.wav,Dementia,Dementia-65,Πέτρα ξεξασπρή και από τον ήλιο ξεξασπρότερη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_241560_243560.wav,Dementia,Dementia-65,Άσπρη πέτρα ξεξασπρή και από τον ήλιο ξεξασπρότερη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_245320_247320.wav,Dementia,Dementia-65,Το σπίτι του κυρίου Δημήτρη είναι χαριτωμένο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_248700_250700.wav,Dementia,Dementia-65,Το σπίτι του κυρίου Δημήτρη +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_252140_254140.wav,Dementia,Dementia-65,Κώστας αγόρασε γάλα και τυρί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_255060_257060.wav,Dementia,Dementia-65,Κώστας αγόρασε γάλα και τυρί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_257460_259460.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_258460_260460.wav,Dementia,Dementia-65,"Λοιπόν, τώρα θα σας δείξω, έχω δύο εικονίτσες ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_262740_264740.wav,Dementia,Dementia-65,Θέλω εδώ να μου πείτε ποια είναι τα ονόματα των ζώων που βλέπετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_273240_275240.wav,Dementia,Dementia-65,Αυτά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_273780_275780.wav,Dementia,Dementia-65,"Εδώ, ε !"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_274240_276240.wav,Dementia,Dementia-65,Ναι ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_283250_285250.wav,Dementia,Dementia-65,Αυτά που βλέπω είναι +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_287820_289820.wav,Dementia,Dementia-65,Λοντάρι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_289980_291980.wav,Dementia,Dementia-65,Δεν είναι αυτό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_291980_293980.wav,Dementia,Dementia-65,Δεν είναι αυτό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_293980_295980.wav,Dementia,Dementia-65,Δεν είναι αυτό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_297520_299520.wav,Dementia,Dementia-65,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_300480_302480.wav,Dementia,Dementia-65,Ρινόκερος και καμήλα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_303060_305060.wav,Dementia,Dementia-65,Ωραία πολύ ωραία κύριε Γιάννη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_304620_306620.wav,Dementia,Dementia-65,Και τώρα θέλω να πάτε στην επόμενη εικόνα από πίσω και να μου
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_306620_308620.wav,Dementia,Dementia-65,Και τώρα θέλω να πάτε στην επόμενη εικόνα από πίσω και να μου
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_312110_314110.wav,Dementia,Dementia-65,Εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_312910_314910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_314910_316910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_316910_318910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_318910_320910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_320910_322910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_322910_324910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_324910_326910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_326910_328910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_328910_330910.wav,Dementia,Dementia-65,Βλέπω ένα λοντάρι και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_332680_334680.wav,Dementia,Dementia-65,Γρυσσηνή .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_344690_346690.wav,Dementia,Dementia-65,Ωραία κύριε Γιάννη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_346110_348110.wav,Dementia,Dementia-65,Και τώρα αφήστε τις φωτογραφίες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_348390_350390.wav,Dementia,Dementia-65,Εγώ τώρα θα σας αφήσω χρόνο ένα λεπτό για να μου πείτε όσες
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_350390_352390.wav,Dementia,Dementia-65,Εγώ τώρα θα σας αφήσω χρόνο ένα λεπτό για να μου πείτε όσες
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_352390_354390.wav,Dementia,Dementia-65,Εγώ τώρα θα σας αφήσω χρόνο ένα λεπτό για να μου πείτε όσες
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_354390_356390.wav,Dementia,Dementia-65,Εγώ τώρα θα σας αφήσω χρόνο ένα λεπτό για να μου πείτε όσες
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_356390_358390.wav,Dementia,Dementia-65,Εγώ τώρα θα σας αφήσω χρόνο ένα λεπτό για να μου πείτε όσες
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_359750_361750.wav,Dementia,Dementia-65,Όπως .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_360630_362630.wav,Dementia,Dementia-65,Φωτιά δηλαδή .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_362230_364230.wav,Dementia,Dementia-65,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_369000_371000.wav,Dementia,Dementia-65,Αρχίσω τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_370220_372220.wav,Dementia,Dementia-65,"Φωτιά, φάρμακα ή +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_372220_374220.wav,Dementia,Dementia-65,"Φωτιά, φάρμακα ή +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_374220_376220.wav,Dementia,Dementia-65,"Φωτιά, φάρμακα ή +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_376220_378220.wav,Dementia,Dementia-65,"Φωτιά, φάρμακα ή +..."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_379320_381320.wav,Dementia,Dementia-65,Θέλετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_379920_381920.wav,Dementia,Dementia-65,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_382140_384140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_384140_386140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_386140_388140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_388140_390140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_390140_392140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_392140_394140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_394140_396140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_396140_398140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_398140_400140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_400140_402140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_402140_404140.wav,Dementia,Dementia-65,"Φάρμακα, φασόδια, φακές, φρούτα, φασόδια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_404610_406610.wav,Dementia,Dementia-65,"Τα είπα, ε !"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_412080_414080.wav,Dementia,Dementia-65,Φούρνους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_421160_423160.wav,Dementia,Dementia-65,"Ωραία, τέλειωσε και ο χρόνος ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_422840_424840.wav,Dementia,Dementia-65,Και τώρα πάλι σε ένα λεπτό θέλω να μου πείτε όσα περισσότερα ζώα
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_424840_426840.wav,Dementia,Dementia-65,Και τώρα πάλι σε ένα λεπτό θέλω να μου πείτε όσα περισσότερα ζώα
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_427740_429740.wav,Dementia,Dementia-65,Ξεκινήστε από τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_431030_433030.wav,Dementia,Dementia-65,Ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_432470_434470.wav,Dementia,Dementia-65,Αγελάδα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_434470_436470.wav,Dementia,Dementia-65,Βόδια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_443170_445170.wav,Dementia,Dementia-65,Μοσχάρι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_454770_456770.wav,Dementia,Dementia-65,Τώρα θέλω να ξαναμένω κιόλας λεπτά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_467180_469180.wav,Dementia,Dementia-65,Λίγα υπάρχει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_468500_470500.wav,Dementia,Dementia-65,Μην ανησυχείτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_487260_489260.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_488040_490040.wav,Dementia,Dementia-65,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_488580_490580.wav,Dementia,Dementia-65,Και τώρα θέλω να ξαναμετρήσουμε αντίστροφα από το είκοσι μέχρι το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_490580_492580.wav,Dementia,Dementia-65,Και τώρα θέλω να ξαναμετρήσουμε αντίστροφα από το είκοσι μέχρι το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_492580_494580.wav,Dementia,Dementia-65,Και τώρα θέλω να ξαναμετρήσουμε αντίστροφα από το είκοσι μέχρι το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_495320_497320.wav,Dementia,Dementia-65,Από .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_502620_504620.wav,Dementia,Dementia-65,Το είκοσι μέχρι το μηδέν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_505420_507420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_507420_509420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_509420_511420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_511420_513420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_513420_515420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_515420_517420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_517420_519420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_519420_521420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_521420_523420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_523420_525420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_525420_527420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_527420_529420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_529420_531420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_531420_533420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_533420_535420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_535420_537420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_537420_539420.wav,Dementia,Dementia-65,"είκοσι, δεκαεννέα, δεκαοκτώ, δεκαεπτά, δεκαέξι, δεκαπέντε,"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_550820_552820.wav,Dementia,Dementia-65,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_551460_553460.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα κύριε Γιάννη θέλω σε ένα λεπτό να μου περιγράψετε"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_553460_555460.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα κύριε Γιάννη θέλω σε ένα λεπτό να μου περιγράψετε"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_555460_557460.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα κύριε Γιάννη θέλω σε ένα λεπτό να μου περιγράψετε"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_557460_559460.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα κύριε Γιάννη θέλω σε ένα λεπτό να μου περιγράψετε"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_561240_563240.wav,Dementia,Dementia-65,Ένα ευχάριστο γεγονός .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_574860_576860.wav,Dementia,Dementia-65,Ότι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_575460_577460.wav,Dementia,Dementia-65,Σας έρχεται στο μυαλό πρέπει να είναι ευχάριστο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_580840_582840.wav,Dementia,Dementia-65,Ή να είχα και τροβάκι ξέρω εγώ κι αυτά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_594080_596080.wav,Dementia,Dementia-65,Και θέλω να μου πείτε και ένα δυσάρεστο γεγονός που σας έρχεται στο
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_596080_598080.wav,Dementia,Dementia-65,Και θέλω να μου πείτε και ένα δυσάρεστο γεγονός που σας έρχεται στο
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_604140_606140.wav,Dementia,Dementia-65,Κανένα κανένα δυσάρεστο δεν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_607780_609780.wav,Dementia,Dementia-65,Θέλω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_608200_610200.wav,Dementia,Dementia-65,Αυτό είναι πολύ καλό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_609980_611980.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα θέλω να μου πείτε τι κάνατε σήμερα το πρωί ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_611980_613980.wav,Dementia,Dementia-65,"Λοιπόν, και τώρα θέλω να μου πείτε τι κάνατε σήμερα το πρωί ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_617050_619050.wav,Dementia,Dementia-65,"Σήμερα το πρωί ξύπνησα και έκανα άλλα ήπια και ξεκίνησα, ήρθε η"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_619050_621050.wav,Dementia,Dementia-65,"Σήμερα το πρωί ξύπνησα και έκανα άλλα ήπια και ξεκίνησα, ήρθε η"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_621050_623050.wav,Dementia,Dementia-65,"Σήμερα το πρωί ξύπνησα και έκανα άλλα ήπια και ξεκίνησα, ήρθε η"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_623050_625050.wav,Dementia,Dementia-65,"Σήμερα το πρωί ξύπνησα και έκανα άλλα ήπια και ξεκίνησα, ήρθε η"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_625050_627050.wav,Dementia,Dementia-65,"Σήμερα το πρωί ξύπνησα και έκανα άλλα ήπια και ξεκίνησα, ήρθε η"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-65/default/default_629100_631100.wav,Dementia,Dementia-65,Ωραία κύριε Γιάννη Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_6500_8500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_8500_10500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_10500_12500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_12500_14500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_14500_16500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_16500_18500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/cookie/cookie_18500_20500.wav,Dementia,Dementia-50,"Είναι η κουζίνα ενός σπιτιού, η μητέρα πλένει τα πιάτα, τα παιδιά"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/house/house_7280_9280.wav,Dementia,Dementia-50,"Είναι μια κατοικία, μάλλον αυρωτική κατοικία, ένα σύμπλεγμα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/house/house_9280_11280.wav,Dementia,Dementia-50,"Είναι μια κατοικία, μάλλον αυρωτική κατοικία, ένα σύμπλεγμα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/house/house_11280_13280.wav,Dementia,Dementia-50,"Είναι μια κατοικία, μάλλον αυρωτική κατοικία, ένα σύμπλεγμα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/house/house_13280_15280.wav,Dementia,Dementia-50,"Είναι μια κατοικία, μάλλον αυρωτική κατοικία, ένα σύμπλεγμα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/house/house_15280_17280.wav,Dementia,Dementia-50,"Είναι μια κατοικία, μάλλον αυρωτική κατοικία, ένα σύμπλεγμα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/house/house_20900_22900.wav,Dementia,Dementia-50,Έχει εσωτερική αυλή που όλα τα παράθυρα βλέπουν στην εσωτερική αυλή
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_3990_5990.wav,Dementia,Dementia-50,Ένα καλοκαίρι και τα τέσσερα δεύτερα του Αντώνη φιλοξενούνται .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_5990_7990.wav,Dementia,Dementia-50,Ένα καλοκαίρι και τα τέσσερα δεύτερα του Αντώνη φιλοξενούνται .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_7990_9990.wav,Dementia,Dementia-50,Ένα καλοκαίρι και τα τέσσερα δεύτερα του Αντώνη φιλοξενούνται .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_9990_11990.wav,Dementia,Dementia-50,Ένα καλοκαίρι και τα τέσσερα δεύτερα του Αντώνη φιλοξενούνται .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_13450_15450.wav,Dementia,Dementia-50,Για τις διακοπές στον Πειραιά στο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_15930_17930.wav,Dementia,Dementia-50,Σπίτι του .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_16390_18390.wav,Dementia,Dementia-50,Θείο τους οι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_18890_20890.wav,Dementia,Dementia-50,Γονείς του Αντώνη ζουν στην Αίγυπτο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_22590_24590.wav,Dementia,Dementia-50,Και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_23350_25350.wav,Dementia,Dementia-50,Εκείνο το καλοκαίρι δεν μπόρεσαν να .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_25090_27090.wav,Dementia,Dementia-50,Ταξιδέψουν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_31350_33350.wav,Dementia,Dementia-50,Έτσι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_32150_34150.wav,Dementia,Dementia-50,Ο Αντώνης καρφίζεται του κόσμου τις σκανδαλές μπλέκει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_36290_38290.wav,Dementia,Dementia-50,Αυτές και τα αδέλφια του παρασύροντάς τα στο τέλος στην .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_38290_40290.wav,Dementia,Dementia-50,Αυτές και τα αδέλφια του παρασύροντάς τα στο τέλος στην .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_40290_42290.wav,Dementia,Dementia-50,Αυτές και τα αδέλφια του παρασύροντάς τα στο τέλος στην .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_43590_45590.wav,Dementia,Dementia-50,Τιμωρία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_46110_48110.wav,Dementia,Dementia-50,Της αυστηρής θείας τους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_47890_49890.wav,Dementia,Dementia-50,Αυτό που .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_50950_52950.wav,Dementia,Dementia-50,Κερδίζει το θαυμασμό όλων είναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_53470_55470.wav,Dementia,Dementia-50,Κερδότητα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_56250_58250.wav,Dementia,Dementia-50,Του χαρακτήρα του .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_57030_59030.wav,Dementia,Dementia-50,Όταν για χάρη της αλήθειας .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-50/sentences/sentences_62530_64530.wav,Dementia,Dementia-50,Παραδέχεται κάθε του αταξία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_3380_5380.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_5300_7300.wav,Dementia,Dementia-699,Τι θα κάνουμε τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_8280_10280.wav,Dementia,Dementia-699,Θα σας παρέσω αυτό εδώ το βραχιολάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_11100_13100.wav,Dementia,Dementia-699,Καταγράφει να δούμε πόσους σφυγμούς έχετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_15380_17380.wav,Dementia,Dementia-699,Πόσους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_16480_18480.wav,Dementia,Dementia-699,Σφυγμούς .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_17000_19000.wav,Dementia,Dementia-699,Καρδιά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_18060_20060.wav,Dementia,Dementia-699,Έχετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_19960_21960.wav,Dementia,Dementia-699,Τι θα κάνουμε τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_21240_23240.wav,Dementia,Dementia-699,Θα σας λέω εγώ κάθε φορά τι θα κάνω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_23020_25020.wav,Dementia,Dementia-699,Ας πω θα σας πω να σηκωθείτε εκεί και να περπατήσετε και να
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_26480_28480.wav,Dementia,Dementia-699,Μετά θα κάτσετε εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_27380_29380.wav,Dementia,Dementia-699,Θα κάνουμε κάποιες ερωτησιούλες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_29300_31300.wav,Dementia,Dementia-699,Και μετά το τελευταίο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_31240_33240.wav,Dementia,Dementia-699,είκοσι λεπτά παίρνει όλο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_32940_34940.wav,Dementia,Dementia-699,Δεν παίρνει πολλή ώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_34520_36520.wav,Dementia,Dementia-699,Το τελευταίο θα είναι να βγω εγώ από το δωμάτιο και να κάνετε εσείς
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_36520_38520.wav,Dementia,Dementia-699,Το τελευταίο θα είναι να βγω εγώ από το δωμάτιο και να κάνετε εσείς
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_39040_41040.wav,Dementia,Dementia-699,Να φτιάξετε ένα τσάι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_40700_42700.wav,Dementia,Dementia-699,Να βάλετε τα φάρμακα σωστά στο κουτί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_43620_45620.wav,Dementia,Dementia-699,Τέτοια πράγματα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_44960_46960.wav,Dementia,Dementia-699,Για να δούμε πώς πάτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_46620_48620.wav,Dementia,Dementia-699,Αν είστε καλύτερα Αν είστε χειρότερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_50900_52900.wav,Dementia,Dementia-699,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_51860_53860.wav,Dementia,Dementia-699,Αυτό τώρα θα δονηθεί γιατί θα ανοίξει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_54680_56680.wav,Dementia,Dementia-699,Αυτό είναι πολύ καλό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_56480_58480.wav,Dementia,Dementia-699,όλοι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_57000_59000.wav,Dementia,Dementia-699,Γιατί καταγράφει πόσους φυγμούς έχετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_60780_62780.wav,Dementia,Dementia-699,Πόσους φυγμούς έχετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_62240_64240.wav,Dementia,Dementia-699,Πόσα βήματα κάνετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_63520_65520.wav,Dementia,Dementia-699,Και τα λοιπά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_64100_66100.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_65700_67700.wav,Dementia,Dementia-699,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_66320_68320.wav,Dementia,Dementia-699,Θέλω να σηκωθείτε εκεί στο χαρτάκι το κίτρινο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_73520_75520.wav,Dementia,Dementia-699,Θα σας πω τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_95540_97540.wav,Dementia,Dementia-699,Μισό λεπτό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_117080_119080.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_118240_120240.wav,Dementia,Dementia-699,Περιμένετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_121670_123670.wav,Dementia,Dementia-699,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_122330_124330.wav,Dementia,Dementia-699,Θέλω να περπατήσετε μέχρι τον τοίχο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_124630_126630.wav,Dementia,Dementia-699,Να σταθείτε δύο δευτερόλεπτα και μετά να γυρίσετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_127370_129370.wav,Dementia,Dementia-699,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_137620_139620.wav,Dementia,Dementia-699,Γυρίστε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_139380_141380.wav,Dementia,Dementia-699,Ελάτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_140980_142980.wav,Dementia,Dementia-699,Πιστεύω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_150840_152840.wav,Dementia,Dementia-699,Για .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_151520_153520.wav,Dementia,Dementia-699,Αυτούς .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_153080_155080.wav,Dementia,Dementia-699,Ελάτε τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_156020_158020.wav,Dementia,Dementia-699,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_156720_158720.wav,Dementia,Dementia-699,Τώρα Καθίστε λίγο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_158060_160060.wav,Dementia,Dementia-699,Θα κάνουμε το εξής .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_159560_161560.wav,Dementia,Dementia-699,Θέλω να μου κάνετε μία αφαίρεση .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_161800_163800.wav,Dementia,Dementia-699,Θέλω από το τριακόσια τέσσερα να μετρήσουμε αντίστροφα έως το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_163800_165800.wav,Dementia,Dementia-699,Θέλω από το τριακόσια τέσσερα να μετρήσουμε αντίστροφα έως το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_165800_167800.wav,Dementia,Dementia-699,Θέλω από το τριακόσια τέσσερα να μετρήσουμε αντίστροφα έως το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_167800_169800.wav,Dementia,Dementia-699,Θέλω από το τριακόσια τέσσερα να μετρήσουμε αντίστροφα έως το
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_170320_172320.wav,Dementia,Dementia-699,Δηλαδή τριακόσια τέσσερα μείον δέκα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_177340_179340.wav,Dementia,Dementia-699,Μείον δέκα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_180640_182640.wav,Dementia,Dementia-699,Εντάξει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_180920_182920.wav,Dementia,Dementia-699,τριακόσια τέσσερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_187460_189460.wav,Dementia,Dementia-699,Δεν μπορούμε να δούμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_193710_195710.wav,Dementia,Dementia-699,τριακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_196750_198750.wav,Dementia,Dementia-699,διακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_198190_200190.wav,Dementia,Dementia-699,Δεν μπορούμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_199690_201690.wav,Dementia,Dementia-699,Εντάξει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_202450_204450.wav,Dementia,Dementia-699,Τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_203070_205070.wav,Dementia,Dementia-699,Θέλω να περπατήσετε πάλι όπως περπατήσαμε στην αρχή και μετά θα σας
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_205070_207070.wav,Dementia,Dementia-699,Θέλω να περπατήσετε πάλι όπως περπατήσαμε στην αρχή και μετά θα σας
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_207950_209950.wav,Dementia,Dementia-699,Να ξεκινήσετε από εκεί να περπατήσετε και μετά να γυρίσετε και
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_209950_211950.wav,Dementia,Dementia-699,Να ξεκινήσετε από εκεί να περπατήσετε και μετά να γυρίσετε και
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_214590_216590.wav,Dementia,Dementia-699,τριακόσια τέσσερα <μείον δέκα> [/] μείον δέκα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_216790_218790.wav,Dementia,Dementia-699,Εντάξει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_217410_219410.wav,Dementia,Dementia-699,Αλλά ταυτόχρονα να περπατάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_219010_221010.wav,Dementia,Dementia-699,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_221210_223210.wav,Dementia,Dementia-699,Όπως πήραν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_222290_224290.wav,Dementia,Dementia-699,Ναι ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_227860_229860.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_228780_230780.wav,Dementia,Dementia-699,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_237580_239580.wav,Dementia,Dementia-699,Την .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_238340_240340.wav,Dementia,Dementia-699,Αφαίρεση .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_240980_242980.wav,Dementia,Dementia-699,Και την αφαίρεση ταυτόχρονα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_244820_246820.wav,Dementia,Dementia-699,Αυτό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_245460_247460.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_255820_257820.wav,Dementia,Dementia-699,διακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_268100_270100.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_270120_272120.wav,Dementia,Dementia-699,Μισό λεπτό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_273120_275120.wav,Dementia,Dementia-699,Ποιος .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_283000_285000.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_283760_285760.wav,Dementia,Dementia-699,Μπράβο κύριε Δημήτρη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_285940_287940.wav,Dementia,Dementia-699,Εγώ τώρα θα σας ξεκουράσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_287560_289560.wav,Dementia,Dementia-699,Θα σας λέω μια πρόταση Την επαναλαμβάνετε μετά από εμένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_289560_291560.wav,Dementia,Dementia-699,Θα σας λέω μια πρόταση Την επαναλαμβάνετε μετά από εμένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_293900_295900.wav,Dementia,Dementia-699,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_296060_298060.wav,Dementia,Dementia-699,Το μόνο που ξέρω είναι ότι ο Γιάννης είναι αυτός που θα βοηθήσει
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_298060_300060.wav,Dementia,Dementia-699,Το μόνο που ξέρω είναι ότι ο Γιάννης είναι αυτός που θα βοηθήσει
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_300060_302060.wav,Dementia,Dementia-699,Το μόνο που ξέρω είναι ότι ο Γιάννης είναι αυτός που θα βοηθήσει
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_303500_305500.wav,Dementia,Dementia-699,Ο Γιάννης Ποιος Γιάννης .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_307240_309240.wav,Dementia,Dementia-699,Θέλω να το πείτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_310540_312540.wav,Dementia,Dementia-699,", τι είπα θέλω να το πείτε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_314000_316000.wav,Dementia,Dementia-699,Δεν καταλαβαίνω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_315060_317060.wav,Dementia,Dementia-699,Ποιος Γιάννης είναι αυτός Τι θέλει να .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_317200_319200.wav,Dementia,Dementia-699,Πω Θα λέω μια πρόταση και θέλω να την επαναλαμβάνετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_319200_321200.wav,Dementia,Dementia-699,Πω Θα λέω μια πρόταση και θέλω να την επαναλαμβάνετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_321480_323480.wav,Dementia,Dementia-699,", τι λέω να το λέτε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_323380_325380.wav,Dementia,Dementia-699,Ναι Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_325380_327380.wav,Dementia,Dementia-699,Ναι Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_327380_329380.wav,Dementia,Dementia-699,Ναι Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_329380_331380.wav,Dementia,Dementia-699,Ναι Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_331380_333380.wav,Dementia,Dementia-699,Ναι Η γάτα κρυβόταν πάντα κάτω από τον καναπέ όταν βρίσκονταν
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_335170_337170.wav,Dementia,Dementia-699,Η γάτα κρυβόταν μέσα στα σκυλιά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_337170_339170.wav,Dementia,Dementia-699,Η γάτα κρυβόταν μέσα στα σκυλιά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_351790_353790.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_352950_354950.wav,Dementia,Dementia-699,Άσπρη πέτρα ξέξασπρη κι απ τον ήλιο ξεξασπρότερη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_354950_356950.wav,Dementia,Dementia-699,Άσπρη πέτρα ξέξασπρη κι απ τον ήλιο ξεξασπρότερη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_358650_360650.wav,Dementia,Dementia-699,Και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_362750_364750.wav,Dementia,Dementia-699,Πείτε το .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_363430_365430.wav,Dementia,Dementia-699,Άσπρη πέτρα ξέξασπρη κι απ τον ήλιο ξεξασπρότερη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_365430_367430.wav,Dementia,Dementia-699,Άσπρη πέτρα ξέξασπρη κι απ τον ήλιο ξεξασπρότερη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_368930_370930.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_369750_371750.wav,Dementia,Dementia-699,Το σπίτι του κύριου Δημήτρη είναι χαριτωμένο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_373790_375790.wav,Dementia,Dementia-699,Το σπίτι του κύριου Δημήτρη είναι χαριτωμένο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_376790_378790.wav,Dementia,Dementia-699,Ο Κώστας αγόρασε γάλα και τυρί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_380930_382930.wav,Dementia,Dementia-699,Ο κόσμος αγόρασε γάλα και τυρί .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_383610_385610.wav,Dementia,Dementia-699,Μπράβο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_390590_392590.wav,Dementia,Dementia-699,Λοιπόν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_391950_393950.wav,Dementia,Dementia-699,Τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_392930_394930.wav,Dementia,Dementia-699,Θα σας δείξω κάποιο ζωάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_395090_397090.wav,Dementia,Dementia-699,θέλω να μου πείτε τα όνομα τάτους .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_403640_405640.wav,Dementia,Dementia-699,Πώς λέγονται αυτά τα +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_406040_408040.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_406700_408700.wav,Dementia,Dementia-699,Αυτό εδώ τι είναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_410500_412500.wav,Dementia,Dementia-699,Τίγρες λέγεται .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_420760_422760.wav,Dementia,Dementia-699,Αυτό του λέγεται Λεοντάρι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_422940_424940.wav,Dementia,Dementia-699,Αυτό του λέγεται +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_426120_428120.wav,Dementia,Dementia-699,Αυτό Λιοντάρι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_429020_431020.wav,Dementia,Dementia-699,Λεοντάρι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_429920_431920.wav,Dementia,Dementia-699,Αυτό εδώ είναι +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_431520_433520.wav,Dementia,Dementia-699,Αυτό Με τη θέρα +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_433820_435820.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_436970_438970.wav,Dementia,Dementia-699,Είστε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_438630_440630.wav,Dementia,Dementia-699,Τώρα θα σας δείξω μία εικονούλα κύριε Δημήτρη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_441950_443950.wav,Dementia,Dementia-699,Θέλω να μου πείτε τι βλέπετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_443610_445610.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_458750_460750.wav,Dementia,Dementia-699,Τι είναι εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_461450_463450.wav,Dementia,Dementia-699,Τι είναι αυτά τα ζωάκια εδώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_463270_465270.wav,Dementia,Dementia-699,Ναι Τι βλέπετε γενικά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_464950_466950.wav,Dementia,Dementia-699,Πείτε μου τι βλέπετε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_484430_486430.wav,Dementia,Dementia-699,Είναι σαν το Λεοντάρι αδερφιά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_486570_488570.wav,Dementia,Dementia-699,Είναι +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_486830_488830.wav,Dementia,Dementia-699,Το βλέπουμε τώρα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_488590_490590.wav,Dementia,Dementia-699,Δεν έχει το Λεοντάρι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_493100_495100.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_493660_495660.wav,Dementia,Dementia-699,Θέλω τώρα να μου πείτε λεξούλες που να αρχίσουν από το γράμμα Χ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_497980_499980.wav,Dementia,Dementia-699,Να εgue Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_503840_505840.wav,Dementia,Dementia-699,Χιόνι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_509320_511320.wav,Dementia,Dementia-699,"Χρυσούλα, πchemical αν τί Όχι μεέγελ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_518590_520590.wav,Dementia,Dementia-699,Χουριαδάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_528900_530900.wav,Dementia,Dementia-699,Χιρινό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_534910_536910.wav,Dementia,Dementia-699,Χαλάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_542050_544050.wav,Dementia,Dementia-699,Είπεν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_544930_546930.wav,Dementia,Dementia-699,Χριστόφορος .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_550960_552960.wav,Dementia,Dementia-699,Χαλάκι Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_552960_554960.wav,Dementia,Dementia-699,Χαλάκι Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_561850_563850.wav,Dementia,Dementia-699,Στοπ Τώρα θέλω να μου πείτε όσο το δυνατόν περισσότερα ζωάκια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_563850_565850.wav,Dementia,Dementia-699,Στοπ Τώρα θέλω να μου πείτε όσο το δυνατόν περισσότερα ζωάκια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_567310_569310.wav,Dementia,Dementia-699,Ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_569770_571770.wav,Dementia,Dementia-699,Τι ζώα είναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_572070_574070.wav,Dementia,Dementia-699,"Μου λέτε ζώα, τι ζώα Δεν ξέρετε ζωάκια ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_575790_577790.wav,Dementia,Dementia-699,Δεν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_575950_577950.wav,Dementia,Dementia-699,Ξέρω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_576690_578690.wav,Dementia,Dementia-699,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_577150_579150.wav,Dementia,Dementia-699,Ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_580480_582480.wav,Dementia,Dementia-699,Αρνάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_583280_585280.wav,Dementia,Dementia-699,Κατσικάκι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_597950_599950.wav,Dementia,Dementia-699,Αγενάδα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_607980_609980.wav,Dementia,Dementia-699,Χοιρινό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_618880_620880.wav,Dementia,Dementia-699,", τι θέποτε επιθυμώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_625560_627560.wav,Dementia,Dementia-699,Ζώα [/] Ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_627680_629680.wav,Dementia,Dementia-699,Ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_629840_631840.wav,Dementia,Dementia-699,Και .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_635520_637520.wav,Dementia,Dementia-699,Άγρια ζώα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_637300_639300.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_638480_640480.wav,Dementia,Dementia-699,Ξέρω που είναι άγρια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_640040_642040.wav,Dementia,Dementia-699,Γιατί είμαι και λίγο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_641260_643260.wav,Dementia,Dementia-699,Σκόνη .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_641640_643640.wav,Dementia,Dementia-699,Μπράβο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_642220_644220.wav,Dementia,Dementia-699,Τώρα θα κάνουμε κάτι άλλο Θέλω να αφαιρέσετε από το τριακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_644220_646220.wav,Dementia,Dementia-699,Τώρα θα κάνουμε κάτι άλλο Θέλω να αφαιρέσετε από το τριακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_646220_648220.wav,Dementia,Dementia-699,Τώρα θα κάνουμε κάτι άλλο Θέλω να αφαιρέσετε από το τριακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_648220_650220.wav,Dementia,Dementia-699,Τώρα θα κάνουμε κάτι άλλο Θέλω να αφαιρέσετε από το τριακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_651520_653520.wav,Dementia,Dementia-699,τριακόσια τέσσερα ένα ένα ένα ένα αντίστοφα μέχρι το διακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_653520_655520.wav,Dementia,Dementia-699,τριακόσια τέσσερα ένα ένα ένα ένα αντίστοφα μέχρι το διακόσια
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_657560_659560.wav,Dementia,Dementia-699,Πάμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_658900_660900.wav,Dementia,Dementia-699,τριακόσια τέσσερα ένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_662040_664040.wav,Dementia,Dementia-699,τριακόσια τρία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_664500_666500.wav,Dementia,Dementia-699,τριακόσια δύο .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_666720_668720.wav,Dementia,Dementia-699,τριακόσια ένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_668080_670080.wav,Dementia,Dementia-699,τριακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_670920_672920.wav,Dementia,Dementia-699,διακόσια ενενήντα εννέα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_672480_674480.wav,Dementia,Dementia-699,διακόσια ενενήντα εννέα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_673240_675240.wav,Dementia,Dementia-699,διακόσια ενενήντα οκτώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_677740_679740.wav,Dementia,Dementia-699,διακόσια ενενήντα επτά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_681300_683300.wav,Dementia,Dementia-699,διακόσια ενενήντα έξι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_684240_686240.wav,Dementia,Dementia-699,διακόσια ενενήντα πέντε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_686980_688980.wav,Dementia,Dementia-699,διακόσια ενενήντα τέσσερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_688820_690820.wav,Dementia,Dementia-699,διακόσια ενενήντα τρία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_690620_692620.wav,Dementia,Dementia-699,διακόσια ενενήντα δύο διακόσια ενενήντα ένα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_695650_697650.wav,Dementia,Dementia-699,διακόσια ενενήντα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_699630_701630.wav,Dementia,Dementia-699,εκατό .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_719970_721970.wav,Dementia,Dementia-699,τριακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_722450_724450.wav,Dementia,Dementia-699,τρία είκοσι πέντε A_τέσσερα_s εξακόσια πέντε χιλιάδες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_724450_726450.wav,Dementia,Dementia-699,τρία είκοσι πέντε A_τέσσερα_s εξακόσια πέντε χιλιάδες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_726450_728450.wav,Dementia,Dementia-699,τρία είκοσι πέντε A_τέσσερα_s εξακόσια πέντε χιλιάδες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_728450_730450.wav,Dementia,Dementia-699,τρία είκοσι πέντε A_τέσσερα_s εξακόσια πέντε χιλιάδες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_730450_732450.wav,Dementia,Dementia-699,τρία είκοσι πέντε A_τέσσερα_s εξακόσια πέντε χιλιάδες .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_733500_735500.wav,Dementia,Dementia-699,είκοσι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_737860_739860.wav,Dementia,Dementia-699,επτακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_739480_741480.wav,Dementia,Dementia-699,τετρακόσια πέντε χιλιάδες τετρακόσια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_740800_742800.wav,Dementia,Dementia-699,έξι πενήντα πέντε έξι πενήντα τέσσερα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_741220_743220.wav,Dementia,Dementia-699,Organs .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_743520_745520.wav,Dementia,Dementia-699,εξήντα .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_745680_747680.wav,Dementia,Dementia-699,"Όχι, είναι και για ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_747300_749300.wav,Dementia,Dementia-699,"Υγεία ψήφιση, είναι και για υγεία ψήφιση Είμαστε κάτω ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_750460_752460.wav,Dementia,Dementia-699,Θα πούμε έναν καφέ και θα έρθω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_751620_753620.wav,Dementia,Dementia-699,"Ωραία, να σας ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_752100_754100.wav,Dementia,Dementia-699,Ενημερώσω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_754380_756380.wav,Dementia,Dementia-699,Ναι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_755020_757020.wav,Dementia,Dementia-699,Να μην αφοράς εδώ κάτω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_756460_758460.wav,Dementia,Dementia-699,Θα είμαστε και θα έρθουμε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_757580_759580.wav,Dementia,Dementia-699,"Ωραία, να σας ενημερώσω ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_759520_761520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_761520_763520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_763520_765520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_765520_767520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_767520_769520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_769520_771520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_771520_773520.wav,Dementia,Dementia-699,"Εδώ παίρνουμε, συνεργαζόμαστε στο Εθνικό Κέντρο Έρευνας και"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_773840_775840.wav,Dementia,Dementia-699,Το ηλεκτροκεφαλογράφημα δεν έχει τακτινοβουλή ούτε ρανδιενέργεια .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_777260_779260.wav,Dementia,Dementia-699,Αν θέλετε +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_778180_780180.wav,Dementia,Dementia-699,"Έχετε εδώ στην εταιρεία, έχετε παρακολουθεί προγράμματα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_781720_783720.wav,Dementia,Dementia-699,Όχι .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_782300_784300.wav,Dementia,Dementia-699,"Έχετε για εδώ πέρα, ναι ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_784260_786260.wav,Dementia,Dementia-699,"Θέλω να μου δώσετε ένα τηλέφωνο, να σας καλέσω να κλείσουμε ένα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_787880_789880.wav,Dementia,Dementia-699,Οπότε φορέψτε .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_791260_793260.wav,Dementia,Dementia-699,εξήντα εννέα πενήντα δύο επτά έντεκα τρία σαράντα επτά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_794040_796040.wav,Dementia,Dementia-699,Ωραία .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_794560_796560.wav,Dementia,Dementia-699,"Θα σας πάρω τη λέξη Ωραία, έγινε ηλιά τα ημέρα μου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_796560_798560.wav,Dementia,Dementia-699,"Θα σας πάρω τη λέξη Ωραία, έγινε ηλιά τα ημέρα μου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_798560_800560.wav,Dementia,Dementia-699,"Θα σας πάρω τη λέξη Ωραία, έγινε ηλιά τα ημέρα μου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_800560_802560.wav,Dementia,Dementia-699,"Θα σας πάρω τη λέξη Ωραία, έγινε ηλιά τα ημέρα μου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_803740_805740.wav,Dementia,Dementia-699,Χάρη μου .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_804600_806600.wav,Dementia,Dementia-699,Απλώς να ξέρω .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_806260_808260.wav,Dementia,Dementia-699,"Ποιες ημέρες, ποια ημέρα είναι Εννοείται θα σας πάρω και θα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_808260_810260.wav,Dementia,Dementia-699,"Ποιες ημέρες, ποια ημέρα είναι Εννοείται θα σας πάρω και θα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_810260_812260.wav,Dementia,Dementia-699,"Ποιες ημέρες, ποια ημέρα είναι Εννοείται θα σας πάρω και θα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_812260_814260.wav,Dementia,Dementia-699,"Ποιες ημέρες, ποια ημέρα είναι Εννοείται θα σας πάρω και θα"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_815420_817420.wav,Dementia,Dementia-699,"Λοιπόν, κύριε Δημήτρη τώρα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_819520_821520.wav,Dementia,Dementia-699,"Λοιπόν, θέλω να μου πείτε ένα δυσάρεστο γεγονός που σας έρχεται στο"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_821520_823520.wav,Dementia,Dementia-699,"Λοιπόν, θέλω να μου πείτε ένα δυσάρεστο γεγονός που σας έρχεται στο"
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_824840_826840.wav,Dementia,Dementia-699,Μιανά .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_825820_827820.wav,Dementia,Dementia-699,Δυσάρεστο γεγονός .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_828040_830040.wav,Dementia,Dementia-699,Δεν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_832040_834040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_834040_836040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_836040_838040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_838040_840040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_840040_842040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_842040_844040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_844040_846040.wav,Dementia,Dementia-699,Είναι πιο δυσάρεστο Εκείνο που το δυσάρεστο είναι όταν δεν έχεις
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_849920_851920.wav,Dementia,Dementia-699,"Με τη γυναίκα σου, με τα παιδιά σου, με, τι συνεργάτη σου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_851920_853920.wav,Dementia,Dementia-699,"Με τη γυναίκα σου, με τα παιδιά σου, με, τι συνεργάτη σου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_853920_855920.wav,Dementia,Dementia-699,"Με τη γυναίκα σου, με τα παιδιά σου, με, τι συνεργάτη σου ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_859800_861800.wav,Dementia,Dementia-699,"Λοιπόν, έγινε ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_863080_865080.wav,Dementia,Dementia-699,"Τώρα, θέλω να μου πείτε τι κάνετε σήμερα το πρωί ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_869340_871340.wav,Dementia,Dementia-699,Τι γίνεται .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_871520_873520.wav,Dementia,Dementia-699,Σήμερα το πρωί Είχα την καλή διάθεση να σηκωθώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_873520_875520.wav,Dementia,Dementia-699,Σήμερα το πρωί Είχα την καλή διάθεση να σηκωθώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_875520_877520.wav,Dementia,Dementia-699,Σήμερα το πρωί Είχα την καλή διάθεση να σηκωθώ .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_879740_881740.wav,Dementia,Dementia-699,Αλλά τα κέφια πάντα χάνουν .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_882820_884820.wav,Dementia,Dementia-699,Έχω αδιαθυσία και το κεφάλι μου έχει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_884820_886820.wav,Dementia,Dementia-699,Έχω αδιαθυσία και το κεφάλι μου έχει .
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_891750_893750.wav,Dementia,Dementia-699,Έχει αδιαθυσία με κουνάει το κεφάλι μου και δεν μπορώ να θυμηθώ
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_893750_895750.wav,Dementia,Dementia-699,Έχει αδιαθυσία με κουνάει το κεφάλι μου και δεν μπορώ να θυμηθώ
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_897850_899850.wav,Dementia,Dementia-699,", τι ήξερα, ότι πέρασα όλα τα χρόνια τα ξεχνώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_899850_901850.wav,Dementia,Dementia-699,", τι ήξερα, ότι πέρασα όλα τα χρόνια τα ξεχνώ ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_903730_905730.wav,Dementia,Dementia-699,Και +...
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_906910_908910.wav,Dementia,Dementia-699,"Να πάρω κανένα χάμπι, μήπως έρθω και καλύτερα ."
+/home/ad_group1/mmda_mme/greek_2s/wav/Dementia/Dementia-699/default/default_910230_912230.wav,Dementia,Dementia-699,Ωραία .
