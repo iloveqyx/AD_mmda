@@ -1,7 +1,7 @@
 #我设想的是由于特征融合哪里有了L2归一化，所以这里采用余弦相似度，因为余弦相似度=归一化后的特征与原型向量的点积,先完成原型的产生。
 import torch
 import torch.nn.functional as F
-from typing import Optional , Tuple
+from typing import Optional
 
 #这里的输入是归一化后的特征和原型向量
 #做一次L2归一化，防止数值不稳定
@@ -20,15 +20,20 @@ def compute_prototype(
     #根据当前的标签计算每个类别的原型向量
     #每个原型还要L2归一化
     device = z.device
-    z=l2_normalize(z)  # 先归一化特征
-    y=y.long()  # 确保标签是long类型
+    y=y.long().to(device)  # 确保标签是long类型
 
+    # 如果是 [B, L, D]，先在时间维做平均池化成 [B, D]
+    if z.dim() == 3:
+        z = z.mean(dim=1)
+    z = l2_normalize(z)  # 保证在单位球上
+    
     if w is None:
         w = torch.ones_like(y, dtype=z.dtype, device=device)#如果权重为空，oneslike返回的是和y形状相同的全1张量,这是初始化的时候认为所有参与计算的样本同样可信
     else:
         w = w.to(z.dtype).to(device)
 
-    prototype = torch.zeros(num_classes,z.size(1),device=device)#两类别，和特征z的维度相同
+    B,D = z.shape
+    prototype = torch.zeros(num_classes,D,device=device)#两类别，和特征z的维度相同
     sum_w = torch.zeros(num_classes,device=device)#每个类别的权重和,后续求原型的时候要用到
 
     for k in range(num_classes):
