@@ -13,7 +13,7 @@ class ClassifierHead(nn.Module):
                  pdrop:float=0.1):
         super().__init__()
         if hidden_dim and hidden_dim > 0:
-            self.classifier = nn.Sequential(
+            self.net = nn.Sequential(
                 nn.Linear(input_dim, hidden_dim),# 输入维度到隐藏维度
                 nn.ReLU(inplace=True),# 激活函数
                 nn.Dropout(pdrop),# 随机置零,在门控那里也有，一样的

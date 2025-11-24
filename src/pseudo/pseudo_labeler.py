@@ -1,14 +1,14 @@
 #这个代码是通过mm_model
 #目的是打上伪标签
 
-from src.mm_model import MMModel
+from src.models.mm_model import MMModel
 from src.prototypes.similarity import cosine_similarity_prototype
 import torch
 import torch.nn.functional as F
 from typing import Tuple , Optional
 
 @torch.no_grad()
-def generate_pseudo_labels(
+def make_pseudo_labels(
     probs_h:torch.Tensor,  # 分类头的预测概率 [B, C]
     sim_a:torch.Tensor,    # audio模态与原型的相似度 [B, C]
     sim_t:torch.Tensor,    # text模态与原型的相似度 [B, C]

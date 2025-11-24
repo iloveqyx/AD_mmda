@@ -2,7 +2,7 @@
 #也写了分类头代码src/models/classifier_head.py
 #这个代码是为了实现多模态模型的整体结构，把融合和分类头结合起来
 import torch
-from .fusion_gated_attn.py import GatedAttnFusionNet
+from .fusion_gated_attn import GatedAttnFusionNet
 from .classifier_head import ClassifierHead
 
 class MMModel(torch.nn.Module):
@@ -19,7 +19,7 @@ class MMModel(torch.nn.Module):
         #融合网络
         self.fusion_net = GatedAttnFusionNet(da, dt, dproj, nhead, pdrop, gate_mode)
         #分类
-        self.classifier_head = ClassifierHead(in_dim=dproj, num_classes=num_classes,
+        self.classifier_head = ClassifierHead(input_dim=dproj, num_classes=num_classes,
                                      hidden_dim=cls_hidden_dim, pdrop=pdrop)
     def forward(self, Xa:torch.Tensor, Xt:torch.Tensor):
         za,zt,zf,g = self.fusion_net(Xa, Xt)  #融合特征

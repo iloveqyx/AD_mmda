@@ -1,0 +1,26 @@
+name: proto_mmda
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  # --- PyTorch + CUDA ---
+  - pytorch=2.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # 需要 NVIDIA 驱动 >= 525
+  # --- 基础科学计算 ---
+  - numpy
+  - pandas
+  - scikit-learn
+  # --- 可视化 & 日志 ---
+  - matplotlib
+  - tqdm
+  - pyyaml
+  # --- 其他 ---
+  - pip
+  - pip:
+      - transformers
+      - tensorboard
