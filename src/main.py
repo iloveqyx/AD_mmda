@@ -468,10 +468,12 @@ def build_proto_bank(
     num_classes: int,
     args,
     device: torch.device,
+    epoch: int,
     prev_proto_bank: Dict[str, torch.Tensor] = None,
 ) -> Dict[str, torch.Tensor]:
     
     model.eval()
+    is_warmup = epoch <= args.warmup_epochs
 
     # 1) 目标有标签原型
     zf_lbl_list, za_lbl_list, zt_lbl_list, y_lbl_list = [], [], [], []
@@ -501,6 +503,9 @@ def build_proto_bank(
     proto_f_l = compute_prototype(zf_lbl, y_lbl, num_classes=num_classes, w=None)
     proto_a_l = compute_prototype(za_lbl, y_lbl, num_classes=num_classes, w=None)
     proto_t_l = compute_prototype(zt_lbl, y_lbl, num_classes=num_classes, w=None)
+
+    if is_warmup:
+        return {"f": proto_f_l, "a": proto_a_l, "t": proto_t_l}
 
     # 2) 伪标签打标
     zf_p_list, za_p_list, zt_p_list = [], [], []
@@ -721,6 +726,7 @@ def main():
                 num_classes=args.num_classes,
                 args=args,
                 device=device,
+                epoch=0,
                 prev_proto_bank=None,
             )
         except RuntimeError as e:
@@ -765,6 +771,7 @@ def main():
                 num_classes=args.num_classes,
                 args=args,
                 device=device,
+                epoch=epoch,
                 prev_proto_bank=proto_bank,
             )
 
