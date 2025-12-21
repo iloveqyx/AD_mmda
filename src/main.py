@@ -251,6 +251,16 @@ def build_dataloaders(args) -> Dict[str, DataLoader]:
         tgt_u_ds, batch_size=bs, shuffle=True, drop_last=True, num_workers=4, pin_memory=True
     )
 
+    proto_src_loader = DataLoader(
+        src_ds, batch_size=bs, shuffle=False, drop_last=False, num_workers=4, pin_memory=True
+    )
+    proto_tgt_l_loader = DataLoader(
+        tgt_l_ds, batch_size=bs, shuffle=False, drop_last=False, num_workers=4, pin_memory=True
+    )
+    proto_tgt_u_loader = DataLoader(
+        tgt_u_ds, batch_size=bs, shuffle=False, drop_last=False, num_workers=4, pin_memory=True
+    )
+
     val_loader = DataLoader(
         val_ds, batch_size=bs, shuffle=False, drop_last=False, num_workers=4, pin_memory=True
     )
@@ -266,6 +276,9 @@ def build_dataloaders(args) -> Dict[str, DataLoader]:
         "train_src": train_src_loader,
         "train_tgt_l": train_tgt_l_loader,
         "train_tgt_u": train_tgt_u_loader,
+        "proto_src": proto_src_loader,
+        "proto_tgt_l": proto_tgt_l_loader,
+        "proto_tgt_u": proto_tgt_u_loader,
         "val": val_loader,
         "test": test_loader,
         "train_tgt_all": train_tgt_all_loader,
@@ -714,6 +727,9 @@ def main():
         loader_src      = loaders["train_src"]
         loader_tgt_l    = loaders["train_tgt_l"]
         loader_tgt_u    = loaders["train_tgt_u"]
+        proto_src_loader = loaders["proto_src"]
+        proto_tgt_l_loader = loaders["proto_tgt_l"]
+        proto_tgt_u_loader = loaders["proto_tgt_u"]
         val_loader      = loaders["val"]
         test_loader     = loaders["test"]
         
@@ -735,8 +751,8 @@ def main():
         try:
             proto_bank = build_proto_bank(
                 model,
-                loader_tgt_l=loader_tgt_l,
-                loader_tgt_u=loader_tgt_u,
+                loader_tgt_l=proto_tgt_l_loader,
+                loader_tgt_u=proto_tgt_u_loader,
                 num_classes=args.num_classes,
                 args=args,
                 device=device,
@@ -765,8 +781,8 @@ def main():
         for epoch in range(1, args.epochs + 1):
             proto_bank = build_proto_bank(
                 model,
-                loader_tgt_l=loader_tgt_l,
-                loader_tgt_u=loader_tgt_u,
+                loader_tgt_l=proto_tgt_l_loader,
+                loader_tgt_u=proto_tgt_u_loader,
                 num_classes=args.num_classes,
                 args=args,
                 device=device,
@@ -782,9 +798,9 @@ def main():
                     class_weights = compute_class_weights(
                         model=model,
                         proto_bank=proto_bank,
-                        loader_src=loader_src if args.class_weight_use_src else None,
-                        loader_tgt_l=loader_tgt_l,
-                        loader_tgt_u=loader_tgt_u,
+                        loader_src=proto_src_loader if args.class_weight_use_src else None,
+                        loader_tgt_l=proto_tgt_l_loader,
+                        loader_tgt_u=proto_tgt_u_loader,
                         num_classes=args.num_classes,
                         device=device,
                         args=args,
