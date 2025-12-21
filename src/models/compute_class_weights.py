@@ -84,15 +84,18 @@ def compute_class_weights(
                 Xa_u, Xt_u = Xa_u.to(device), Xt_u.to(device)
 
                 logits_u, probs_u, (za_u, zt_u, zf_u, _) = model(Xa_u, Xt_u)
-                sim_a_u, _ = cosine_similarity_prototype(za_u, proto_a, tau=args.tau_proto)
-                sim_t_u, _ = cosine_similarity_prototype(zt_u, proto_t, tau=args.tau_proto)
-                sim_f_u, _ = cosine_similarity_prototype(zf_u, proto_f, tau=args.tau_proto)
+                sim_a_u, sim_a_u_logits = cosine_similarity_prototype(za_u, proto_a, tau=args.tau_proto)
+                sim_t_u, sim_t_u_logits = cosine_similarity_prototype(zt_u, proto_t, tau=args.tau_proto)
+                sim_f_u, sim_f_u_logits = cosine_similarity_prototype(zf_u, proto_f, tau=args.tau_proto)
 
                 mask_pl, y_hat, w_hat = make_pseudo_labels(
                     probs_h=probs_u,
                     sim_a=sim_a_u,
                     sim_t=sim_t_u,
                     sim_f=sim_f_u,
+                    sim_a_logits=sim_a_u_logits,
+                    sim_t_logits=sim_t_u_logits,
+                    sim_f_logits=sim_f_u_logits,
                     theta_a=args.theta_a,
                     theta_t=args.theta_t,
                     theta_h=args.theta_h,

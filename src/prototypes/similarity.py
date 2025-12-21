@@ -16,7 +16,7 @@ def cosine_similarity_prototype(
     prototype_norm = F.normalize(prototype, p=2, dim=-1)
 
     #cosine 相似度
-    logits = tau*(z_norm @ prototype_norm.t())  #.t  转置,@ 表示矩阵乘法,结果形状 [B, L, num_classes] or [B, num_classes]
-    sim_prototype = F.softmax(logits, dim=-1)  # 预测类别,-1表示最后一个维度
+    cosine_sim = z_norm @ prototype_norm.t()  #.t  转置,@ 表示矩阵乘法,结果形状 [B, L, num_classes] or [B, num_classes]
+    logits = tau * cosine_sim
 
-    return sim_prototype, logits
+    return cosine_sim, logits
