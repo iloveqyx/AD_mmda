@@ -11,6 +11,7 @@ from datetime import datetime
 import json
 import itertools
 import copy
+import logging
 
 import numpy as np
 import matplotlib
@@ -907,6 +908,16 @@ def main():
         plt.close()
 
         # === Test 评估 ===
+        best_ckpt_path = fold_run_dir / "best_model.pt"
+        if best_ckpt_path.exists():
+            model.load_state_dict(torch.load(best_ckpt_path, map_location=device))
+            model.eval()
+        else:
+            logging.warning(
+                "[Fold %s] best checkpoint not found at %s; using current model for test eval.",
+                fold_idx,
+                best_ckpt_path,
+            )
         test_metrics = eval_on_split(model, test_loader, device=device, num_classes=args.num_classes)
         print(f"[Fold {fold_idx} TEST] "
               f"acc={test_metrics['acc']:.4f} "
