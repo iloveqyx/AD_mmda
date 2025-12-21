@@ -37,13 +37,17 @@ Example Usage:
 conda activate proto_mmda
 cd /home/ad_group1/AD_mmda2
 
-CUDA_VISIBLE_DEVICES=2  python -m src.main \
+CUDA_VISIBLE_DEVICES=0 python -m src.main \
   --source Pitt \
   --target Lu \
-  --epochs 500 --batch_size 64 \
-  --warmup_epochs 300 \
+  --data_root /home/ad_group1/data \
+  --epochs 500 \ 
+  --batch_size 64 \
+  --warmup_epochs 200 \ 
   --lr 1e-5 \
-  --device cuda
+  --use_class_weight \
+  --device cuda \
+  --exp_name "每轮计算类别权重+无监督对比" 
 '''
 print(f"CUDA_VISIBLE_DEVICES: {os.environ.get('CUDA_VISIBLE_DEVICES')}")
 print(f"PyTorch uses device: {torch.cuda.get_device_name(0)}")
@@ -84,7 +88,7 @@ def parse_args():
                         help="单类权重相对均值的最大倍数(<=0 表示不截断)")
     parser.add_argument("--class_weight_min_scale", type=float, default=0.5,
                         help="单类权重相对均值的最小倍数")
-    parser.add_argument("--manual_pos_scale", type=float, default=1.0,
+    parser.add_argument("--manual_pos_scale", type=float, default=1.3,
                         help="二分类时对正类(AD类)权重的额外放大系数, >1 将更偏向 AD 召回")
     parser.add_argument("--class_weight_update_interval", type=int, default=1,
                         help="warmup 后每隔多少个 epoch 重新计算类别权重(<=0 表示不更新)")
@@ -793,10 +797,6 @@ def main():
                     class_weights_value = class_weights.detach().cpu().tolist()
                     class_weight_logs.append(
                         {"epoch": epoch, "weights": class_weights_value}
-                    )
-                    print(
-                        f"[Fold {fold_idx} | Epoch {epoch}] "
-                        f"class_weights={class_weights_value}"
                     )
 
             stats = train_one_epoch(
