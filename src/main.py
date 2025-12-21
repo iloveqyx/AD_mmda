@@ -835,10 +835,7 @@ def main():
             hist_pl.append(stats["loss_pl"])
             hist_con.append(stats["loss_con"])
             hist_pl_ratio.append(stats["pl_ratio"])
-
-            val_metrics = eval_on_split(
-                model, val_loader, device=device, num_classes=args.num_classes
-            )
+            
             val_score = val_metrics["f1"]
             if val_score > best_val_metric:
                 best_val_metric = val_score
