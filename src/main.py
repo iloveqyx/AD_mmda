@@ -86,6 +86,8 @@ def parse_args():
                         help="单类权重相对均值的最小倍数")
     parser.add_argument("--manual_pos_scale", type=float, default=1.0,
                         help="二分类时对正类(AD类)权重的额外放大系数, >1 将更偏向 AD 召回")
+    parser.add_argument("--class_weight_update_interval", type=int, default=1,
+                        help="warmup 后每隔多少个 epoch 重新计算类别权重(<=0 表示不更新)")
 
     # loss 权重
     parser.add_argument("--lam_sup", type=float, default=1.0)
@@ -736,25 +738,7 @@ def main():
 
         # 4.1 类别权重（可选）
         class_weights = None
-        if args.use_class_weight:
-            class_weights = compute_class_weights(
-                model=model,
-                proto_bank=proto_bank,
-                loader_src=loader_src if args.class_weight_use_src else None,
-                loader_tgt_l=loader_tgt_l,
-                loader_tgt_u=loader_tgt_u,
-                num_classes=args.num_classes,
-                device=device,
-                args=args,
-                alpha=args.class_weight_alpha,
-                eps=args.class_weight_eps,
-                use_src=args.class_weight_use_src,
-                use_confidence=not args.class_weight_no_conf,
-                gamma=getattr(args, "class_weight_gamma", 0.5),
-                max_scale=getattr(args, "class_weight_max_scale", 2.0),
-                min_scale=getattr(args, "class_weight_min_scale", 0.5),
-                manual_pos_scale=getattr(args, "manual_pos_scale", 1.0),
-            )
+        class_weight_logs = []
         
         # 记录曲线
         hist_sup = []
@@ -774,6 +758,40 @@ def main():
                 epoch=epoch,
                 prev_proto_bank=proto_bank,
             )
+
+            if args.use_class_weight and epoch > args.warmup_epochs:
+                update_interval = getattr(args, "class_weight_update_interval", 1)
+                if update_interval > 0 and (epoch - args.warmup_epochs) % update_interval == 0:
+                    was_training = model.training
+                    model.eval()
+                    class_weights = compute_class_weights(
+                        model=model,
+                        proto_bank=proto_bank,
+                        loader_src=loader_src if args.class_weight_use_src else None,
+                        loader_tgt_l=loader_tgt_l,
+                        loader_tgt_u=loader_tgt_u,
+                        num_classes=args.num_classes,
+                        device=device,
+                        args=args,
+                        alpha=args.class_weight_alpha,
+                        eps=args.class_weight_eps,
+                        use_src=args.class_weight_use_src,
+                        use_confidence=not args.class_weight_no_conf,
+                        gamma=getattr(args, "class_weight_gamma", 0.5),
+                        max_scale=getattr(args, "class_weight_max_scale", 2.0),
+                        min_scale=getattr(args, "class_weight_min_scale", 0.5),
+                        manual_pos_scale=getattr(args, "manual_pos_scale", 1.0),
+                    )
+                    if was_training:
+                        model.train()
+                    class_weights_value = class_weights.detach().cpu().tolist()
+                    class_weight_logs.append(
+                        {"epoch": epoch, "weights": class_weights_value}
+                    )
+                    print(
+                        f"[Fold {fold_idx} | Epoch {epoch}] "
+                        f"class_weights={class_weights_value}"
+                    )
 
             stats = train_one_epoch(
                 epoch, model,
@@ -805,6 +823,9 @@ def main():
         }
         with open(fold_run_dir / "train_log.json", "w") as f:
             json.dump(log_dict, f, indent=2)
+        if class_weight_logs:
+            with open(fold_run_dir / "class_weight_log.json", "w") as f:
+                json.dump(class_weight_logs, f, indent=2)
 
         # === 绘制曲线 (保存到 fold 目录) ===
         epochs_range = list(range(1, len(hist_sup) + 1))
