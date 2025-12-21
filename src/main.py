@@ -713,6 +713,7 @@ def main():
         loader_src      = loaders["train_src"]
         loader_tgt_l    = loaders["train_tgt_l"]
         loader_tgt_u    = loaders["train_tgt_u"]
+        val_loader      = loaders["val"]
         test_loader     = loaders["test"]
         
         # 3. 初始化模型 & 优化器 (每折重置)
@@ -757,6 +758,8 @@ def main():
         hist_pl_ratio = []
 
         # 5. 训练循环
+        best_val_metric = float("-inf")
+        best_val_record = None
         for epoch in range(1, args.epochs + 1):
             proto_bank = build_proto_bank(
                 model,
@@ -819,6 +822,22 @@ def main():
             hist_pl.append(stats["loss_pl"])
             hist_con.append(stats["loss_con"])
             hist_pl_ratio.append(stats["pl_ratio"])
+
+            val_metrics = eval_on_split(
+                model, val_loader, device=device, num_classes=args.num_classes
+            )
+            val_score = val_metrics["f1"]
+            if val_score > best_val_metric:
+                best_val_metric = val_score
+                best_val_record = {
+                    "epoch": epoch,
+                    "metric_name": "f1",
+                    "metric_value": val_score,
+                    "metrics": val_metrics,
+                }
+                torch.save(model.state_dict(), fold_run_dir / "best_model.pt")
+                with open(fold_run_dir / "best_metrics.json", "w") as f:
+                    json.dump(best_val_record, f, indent=2)
 
         # === 保存该 Fold 训练 log ===
         log_dict = {
