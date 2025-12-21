@@ -346,15 +346,18 @@ def train_one_epoch(
             prototype_t = proto_bank["t"]
             prototype_f = proto_bank["f"]
 
-            sim_a_u, _ = cosine_similarity_prototype(za_u, prototype_a, tau=args.tau_proto)
-            sim_t_u, _ = cosine_similarity_prototype(zt_u, prototype_t, tau=args.tau_proto)
-            sim_f_u, _ = cosine_similarity_prototype(zf_u, prototype_f, tau=args.tau_proto)
+            sim_a_u, sim_a_u_logits = cosine_similarity_prototype(za_u, prototype_a, tau=args.tau_proto)
+            sim_t_u, sim_t_u_logits = cosine_similarity_prototype(zt_u, prototype_t, tau=args.tau_proto)
+            sim_f_u, sim_f_u_logits = cosine_similarity_prototype(zf_u, prototype_f, tau=args.tau_proto)
 
             mask_pl, y_hat, w_hat = make_pseudo_labels(
                 probs_h=probs_u,
                 sim_a=sim_a_u,
                 sim_t=sim_t_u,
                 sim_f=sim_f_u,
+                sim_a_logits=sim_a_u_logits,
+                sim_t_logits=sim_t_u_logits,
+                sim_f_logits=sim_f_u_logits,
                 theta_a=args.theta_a,
                 theta_t=args.theta_t,
                 theta_h=args.theta_h,
@@ -516,15 +519,18 @@ def build_proto_bank(
 
         logits_u, probs_u, (za_u, zt_u, zf_u, g_u) = model(Xa_u, Xt_u)
 
-        sim_a_u, _ = cosine_similarity_prototype(za_u, proto_a_l, tau=args.tau_proto)
-        sim_t_u, _ = cosine_similarity_prototype(zt_u, proto_t_l, tau=args.tau_proto)
-        sim_f_u, _ = cosine_similarity_prototype(zf_u, proto_f_l, tau=args.tau_proto)
+        sim_a_u, sim_a_u_logits = cosine_similarity_prototype(za_u, proto_a_l, tau=args.tau_proto)
+        sim_t_u, sim_t_u_logits = cosine_similarity_prototype(zt_u, proto_t_l, tau=args.tau_proto)
+        sim_f_u, sim_f_u_logits = cosine_similarity_prototype(zf_u, proto_f_l, tau=args.tau_proto)
 
         mask_pl, y_hat, w_hat = make_pseudo_labels(
             probs_h=probs_u,
             sim_a=sim_a_u,
             sim_t=sim_t_u,
             sim_f=sim_f_u,
+            sim_a_logits=sim_a_u_logits,
+            sim_t_logits=sim_t_u_logits,
+            sim_f_logits=sim_f_u_logits,
             theta_a=args.theta_a,
             theta_t=args.theta_t,
             theta_h=args.theta_h,
