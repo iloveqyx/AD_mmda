@@ -42,9 +42,9 @@ CUDA_VISIBLE_DEVICES=0 python -m src.main \
   --source Pitt \
   --target Lu \
   --data_root /home/ad_group1/data \
-  --epochs 500 \ 
+  --epochs 500 \
   --batch_size 64 \
-  --warmup_epochs 200 \ 
+  --warmup_epochs 200 \
   --lr 1e-5 \
   --use_class_weight \
   --device cuda \
@@ -139,7 +139,7 @@ def parse_args():
     parser.add_argument("--result_root", type=str, default="result",
                         help="结果根目录")
     # exp_name 如果不填，代码会自动根据 source2target_time 生成
-    parser.add_argument("--exp_name", type=str, default="开启类别权重",
+    parser.add_argument("--exp_name", type=str,
                         help="本次实验的自定义名称后缀")
 
     return parser.parse_args()
