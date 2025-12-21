@@ -713,6 +713,7 @@ def main():
         loader_src      = loaders["train_src"]
         loader_tgt_l    = loaders["train_tgt_l"]
         loader_tgt_u    = loaders["train_tgt_u"]
+        val_loader      = loaders["val"]
         test_loader     = loaders["test"]
         
         # 3. 初始化模型 & 优化器 (每折重置)
@@ -755,6 +756,7 @@ def main():
         hist_pl = []
         hist_con = []
         hist_pl_ratio = []
+        hist_val_metrics = []
 
         # 5. 训练循环
         for epoch in range(1, args.epochs + 1):
@@ -804,6 +806,14 @@ def main():
                 loader_src, loader_tgt_l, loader_tgt_u,
                 optimizer, supcon_loss, args, proto_bank, device, class_weights, unsupcon_loss,
             )
+
+            val_metrics = eval_on_split(
+                model,
+                val_loader,
+                device=device,
+                num_classes=args.num_classes,
+            )
+            hist_val_metrics.append({"epoch": epoch, **val_metrics})
             
             # 简单打印一下，防止输出太长
             if epoch % 10 == 0 or epoch == 1:
@@ -812,7 +822,10 @@ def main():
                     f"sup={stats['loss_sup']:.4f} "
                     f"pl={stats['loss_pl']:.4f} "
                     f"con={stats['loss_con']:.4f} "
-                    f"pl_ratio={stats['pl_ratio']:.4f}"
+                    f"pl_ratio={stats['pl_ratio']:.4f} "
+                    f"val_acc={val_metrics['acc']:.4f} "
+                    f"val_f1={val_metrics['f1']:.4f} "
+                    f"val_auc={val_metrics['auc'] if val_metrics['auc'] is not None else 'None'}"
                 )
 
             hist_sup.append(stats["loss_sup"])
@@ -826,9 +839,12 @@ def main():
             "pl": hist_pl,
             "con": hist_con,
             "pl_ratio": hist_pl_ratio,
+            "val": hist_val_metrics,
         }
         with open(fold_run_dir / "train_log.json", "w") as f:
             json.dump(log_dict, f, indent=2)
+        with open(fold_run_dir / "val_metrics.json", "w") as f:
+            json.dump(hist_val_metrics, f, indent=2)
         if class_weight_logs:
             with open(fold_run_dir / "class_weight_log.json", "w") as f:
                 json.dump(class_weight_logs, f, indent=2)
