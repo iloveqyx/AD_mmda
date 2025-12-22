@@ -322,34 +322,39 @@ def train_one_epoch(
 
     # ---- target-centric 采样 ----
     iter_src   = itertools.cycle(loader_src)
-    iter_tgt_l = itertools.cycle(loader_tgt_l)
+    has_tgt_l = len(loader_tgt_l) > 0
+    iter_tgt_l = itertools.cycle(loader_tgt_l) if has_tgt_l else None
 
     for batch_u in loader_tgt_u:
         n_steps += 1
 
         batch_s = next(iter_src)
-        batch_l = next(iter_tgt_l)
+        batch_l = next(iter_tgt_l) if has_tgt_l else None
 
         Xa_s, Xt_s, y_s, meta_s = batch_s
-        Xa_l, Xt_l, y_l, meta_l = batch_l
         Xa_u, Xt_u, y_u, meta_u = batch_u 
 
         Xa_s = Xa_s.to(device); Xt_s = Xt_s.to(device); y_s = y_s.to(device)
-        Xa_l = Xa_l.to(device); Xt_l = Xt_l.to(device); y_l = y_l.to(device)
         Xa_u = Xa_u.to(device); Xt_u = Xt_u.to(device); y_u = y_u.to(device)
 
         optimizer.zero_grad()
 
         # 1) 前向
         logits_s, probs_s, (za_s, zt_s, zf_s, g_s) = model(Xa_s, Xt_s)
-        logits_l, probs_l, (za_l, zt_l, zf_l, g_l) = model(Xa_l, Xt_l)
         logits_u, probs_u, (za_u, zt_u, zf_u, g_u) = model(Xa_u, Xt_u)
+        if has_tgt_l:
+            Xa_l, Xt_l, y_l, meta_l = batch_l
+            Xa_l = Xa_l.to(device); Xt_l = Xt_l.to(device); y_l = y_l.to(device)
+            logits_l, probs_l, (za_l, zt_l, zf_l, g_l) = model(Xa_l, Xt_l)
 
         # 2) 监督 CE
         # 仅对真实标签 CE 使用类别权重；伪标签 CE 不加类权重，避免双重加权伪标签噪声
         ce_kwargs_sup = {"weight": class_weights} if class_weights is not None else {}
         loss_sup_src = F.cross_entropy(logits_s, y_s, **ce_kwargs_sup)
-        loss_sup_tgt = F.cross_entropy(logits_l, y_l, **ce_kwargs_sup)
+        if has_tgt_l:
+            loss_sup_tgt = F.cross_entropy(logits_l, y_l, **ce_kwargs_sup)
+        else:
+            loss_sup_tgt = torch.tensor(0.0, device=device)
         loss_sup = loss_sup_src + loss_sup_tgt
 
         # 3) 无标签 / 伪标签
@@ -402,8 +407,11 @@ def train_one_epoch(
         total_u_n += u_n
 
         # 4) 对比学习
-        z_list = [zf_s, zf_l]
-        y_list = [y_s,  y_l]
+        z_list = [zf_s]
+        y_list = [y_s]
+        if has_tgt_l:
+            z_list.append(zf_l)
+            y_list.append(y_l)
         if not is_warmup and mask_pl.any():
             z_list.append(zf_u[mask_pl])
             y_list.append(y_hat[mask_pl])
