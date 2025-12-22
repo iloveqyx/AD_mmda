@@ -12,6 +12,7 @@ import json
 import itertools
 import copy
 import logging
+import traceback
 
 import numpy as np
 import matplotlib
@@ -38,21 +39,41 @@ Example Usage:
 conda activate proto_mmda
 cd /home/ad_group1/AD_mmda2
 
-CUDA_VISIBLE_DEVICES=0 python -m src.main \
-  --source Lu \
-  --target Pitt \
+CUDA_VISIBLE_DEVICES=0
+  python -m src.main \
+  --seed 42 \
+  --source Pitt \
+  --target Dem \
   --data_root /home/ad_group1/data \
-  --epochs 500 \
-  --batch_size 64 \
-  --warmup_epochs 200 \
-  --lr 1e-5 \
-  --use_class_weight \
-  --device cuda \
-  --exp_name "验证集得到最佳模型" 
+  --epochs 200 \
+  --warmup_epochs 120 \
+  --adaptive_warmup \
+  --warmup_min_epochs 20 \
+  --warmup_patience 2 \
+  --warmup_min_delta 0.001 \
+  --val_interval 5 \
+  --best_metric acc \
+  --best_smooth_k 3 \
+  --best_min_delta 0.001 \
+  --select_after_warmup \
+  --early_stop_patience 8 \
+  --early_stop_min_delta 0.001 \
+  --use_ema \
+  --ema_decay 0.999 \
+  --ema_eval
+
+ 
 '''
 print(f"CUDA_VISIBLE_DEVICES: {os.environ.get('CUDA_VISIBLE_DEVICES')}")
-print(f"PyTorch uses device: {torch.cuda.get_device_name(0)}")
-print(f"Current device index in PyTorch: {torch.cuda.current_device()}")
+if torch.cuda.is_available():
+    try:
+        idx = torch.cuda.current_device()
+        print(f"PyTorch uses device: {torch.cuda.get_device_name(idx)}")
+        print(f"Current device index in PyTorch: {idx}")
+    except Exception as e:
+        print(f"PyTorch CUDA device query failed: {e}")
+else:
+    print("PyTorch uses device: CPU")
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -89,7 +110,7 @@ def parse_args():
                         help="单类权重相对均值的最大倍数(<=0 表示不截断)")
     parser.add_argument("--class_weight_min_scale", type=float, default=0.5,
                         help="单类权重相对均值的最小倍数")
-    parser.add_argument("--manual_pos_scale", type=float, default=1.3,
+    parser.add_argument("--manual_pos_scale", type=float, default=1,
                         help="二分类时对正类(AD类)权重的额外放大系数, >1 将更偏向 AD 召回")
     parser.add_argument("--class_weight_update_interval", type=int, default=1,
                         help="warmup 后每隔多少个 epoch 重新计算类别权重(<=0 表示不更新)")
@@ -142,6 +163,25 @@ def parse_args():
     parser.add_argument("--exp_name", type=str,
                         help="本次实验的自定义名称后缀")
 
+    parser.add_argument("--deterministic", action="store_true", help="启用更强的确定性(可能降低速度)")
+    # === EMA（通常能让val/test更稳） ===
+    parser.add_argument("--use_ema", action="store_true", help="启用EMA(指数滑动平均)权重")
+    parser.add_argument("--ema_decay", type=float, default=0.999, help="EMA衰减系数(0.99~0.9999)")
+    parser.add_argument("--ema_eval", action="store_true", help="用EMA权重做val/test评估与保存best")
+    parser.add_argument("--strict_folds", action="store_true", help="若某折数据缺失则直接报错(默认跳过)")
+    parser.add_argument("--pl_ramp_epochs", type=int, default=0, help="warmup后伪标签loss权重ramp-up的epoch数(0表示不ramp)")
+    parser.add_argument("--warmup_min_delta", type=float, default=1e-3, help="自适应warmup：认为有提升的最小幅度")
+    parser.add_argument("--warmup_patience", type=int, default=3, help="自适应warmup：连续多少次val无提升就结束warmup")
+    parser.add_argument("--warmup_min_epochs", type=int, default=10, help="自适应warmup最少持续epoch数")
+    parser.add_argument("--adaptive_warmup", action="store_true", help="根据val表现自动提前结束warmup")
+    parser.add_argument("--early_stop_min_delta", type=float, default=0.0, help="早停判断的最小提升幅度")
+    parser.add_argument("--early_stop_patience", type=int, default=0, help="早停patience(按val_interval计数); 0表示不早停")
+    parser.add_argument("--select_after_warmup", action="store_true", help="仅在warmup之后才允许刷新best(更稳)")
+    parser.add_argument("--best_min_delta", type=float, default=0.0, help="best指标的最小提升幅度(过滤抖动)")
+    parser.add_argument("--best_smooth_k", type=int, default=1, help="best/早停使用val指标的滑动平均窗口(1表示不平滑)")
+    parser.add_argument("--best_metric", type=str, default="acc", choices=["acc","f1","auc"], help="用val选best模型的指标")
+    parser.add_argument("--val_interval", type=int, default=1, help="每隔多少个epoch在val上评估一次(用于选best/早停)")
+    # === 训练稳定性/模型选择 ===
     return parser.parse_args()
 
 
@@ -245,10 +285,10 @@ def build_dataloaders(args) -> Dict[str, DataLoader]:
         src_ds, batch_size=bs, shuffle=True, drop_last=True, num_workers=4, pin_memory=True
     )
     train_tgt_l_loader = DataLoader(
-        tgt_l_ds, batch_size=bs, shuffle=True, drop_last=True, num_workers=4, pin_memory=True
+        tgt_l_ds, batch_size=bs, shuffle=True, drop_last=False, num_workers=4, pin_memory=True
     )
     train_tgt_u_loader = DataLoader(
-        tgt_u_ds, batch_size=bs, shuffle=True, drop_last=True, num_workers=4, pin_memory=True
+        tgt_u_ds, batch_size=bs, shuffle=True, drop_last=False, num_workers=4, pin_memory=True
     )
 
     proto_src_loader = DataLoader(
@@ -268,9 +308,6 @@ def build_dataloaders(args) -> Dict[str, DataLoader]:
         test_ds, batch_size=bs, shuffle=False, drop_last=False, num_workers=4, pin_memory=True
     )
 
-    train_tgt_all_loader = DataLoader(
-        tgt_l_ds, batch_size=bs, shuffle=True, drop_last=True, num_workers=4, pin_memory=True
-    )
 
     loaders = {
         "train_src": train_src_loader,
@@ -281,7 +318,6 @@ def build_dataloaders(args) -> Dict[str, DataLoader]:
         "proto_tgt_u": proto_tgt_u_loader,
         "val": val_loader,
         "test": test_loader,
-        "train_tgt_all": train_tgt_all_loader,
     }
     return loaders
 
@@ -303,6 +339,8 @@ def train_one_epoch(
     device: torch.device,
     class_weights: torch.Tensor = None,
     unsupcon_loss: 'UnsupervisedContrastiveLoss' = None,
+    ema_model: nn.Module = None,
+    ema_decay: float = 0.999,
 ) -> Dict[str, float]:
     
     model.train()
@@ -371,11 +409,12 @@ def train_one_epoch(
             prototype_t = proto_bank["t"]
             prototype_f = proto_bank["f"]
 
-            sim_a_u, sim_a_u_logits = cosine_similarity_prototype(za_u, prototype_a, tau=args.tau_proto)
-            sim_t_u, sim_t_u_logits = cosine_similarity_prototype(zt_u, prototype_t, tau=args.tau_proto)
-            sim_f_u, sim_f_u_logits = cosine_similarity_prototype(zf_u, prototype_f, tau=args.tau_proto)
+            with torch.no_grad():
+                sim_a_u, sim_a_u_logits = cosine_similarity_prototype(za_u, prototype_a, tau=args.tau_proto)
+                sim_t_u, sim_t_u_logits = cosine_similarity_prototype(zt_u, prototype_t, tau=args.tau_proto)
+                sim_f_u, sim_f_u_logits = cosine_similarity_prototype(zf_u, prototype_f, tau=args.tau_proto)
 
-            mask_pl, y_hat, w_hat = make_pseudo_labels(
+                mask_pl, y_hat, w_hat = make_pseudo_labels(
                 probs_h=probs_u,
                 sim_a=sim_a_u,
                 sim_t=sim_t_u,
@@ -389,7 +428,7 @@ def train_one_epoch(
                 delta_a=args.delta_a,
                 delta_t=args.delta_t,
                 kl_eps=args.kl_eps,
-            )
+                )
 
             pl_n = int(mask_pl.sum().item())
 
@@ -452,8 +491,16 @@ def train_one_epoch(
         if is_warmup:
             lam_pl_eff = 0.0
         else:
-            lam_pl_eff = args.lam_pl
+            # 伪标签loss可选ramp-up：防止一出warmup梯度过猛导致不稳定
+            ramp = int(getattr(args, 'pl_ramp_epochs', 0))
+            if ramp > 0:
+                prog = float(epoch - getattr(args, 'warmup_epochs', 0)) / float(ramp)
+                prog = 0.0 if prog < 0 else (1.0 if prog > 1.0 else prog)
+                lam_pl_eff = float(args.lam_pl) * prog
+            else:
+                lam_pl_eff = args.lam_pl
 
+        lam_con_eff = args.lam_con
         lam_con_eff = args.lam_con
 
         loss = (
@@ -470,6 +517,16 @@ def train_one_epoch(
 
         loss.backward()
         optimizer.step()
+        if ema_model is not None:
+            with torch.no_grad():
+                # 参数EMA
+                for p_ema, p in zip(ema_model.parameters(), model.parameters()):
+                    if not p.requires_grad:
+                        continue
+                    p_ema.data.mul_(ema_decay).add_(p.data, alpha=1.0 - ema_decay)
+                # buffer同步(如有)
+                for b_ema, b in zip(ema_model.buffers(), model.buffers()):
+                    b_ema.copy_(b)
 
         total_sup += loss_sup.item()
         total_sup_src += loss_sup_src.item()
@@ -680,6 +737,9 @@ def eval_on_split(
 def main():
     args = parse_args()
     set_seed(args.seed)
+    if getattr(args, 'deterministic', False):
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
     device = torch.device(args.device if torch.cuda.is_available() else "cpu")
     print(f"[device] use {device}")
 
@@ -726,10 +786,12 @@ def main():
         fold_run_dir.mkdir(parents=True, exist_ok=True)
 
         # 2. 重新构建 Dataloader
+        # 任何该折数据相关问题（缺文件/损坏/加载失败）都跳过该折，避免中断整个 5-fold
         try:
             loaders = build_dataloaders(args)
-        except FileNotFoundError as e:
-            print(f"[Error] Skip Fold {fold_idx}: {e}")
+        except Exception as e:
+            print(f"[Error] Skip Fold {fold_idx} when building dataloaders: {e}")
+            traceback.print_exc()
             continue
 
         loader_src      = loaders["train_src"]
@@ -750,6 +812,12 @@ def main():
             nhead=args.nhead,
             gate_mode=args.gate_mode,
         ).to(device)
+        ema_model = None
+        if getattr(args, 'use_ema', False):
+            ema_model = copy.deepcopy(model).to(device)
+            ema_model.eval()
+            for p in ema_model.parameters():
+                p.requires_grad_(False)
 
         optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
         supcon_loss = SupervisedContrastiveLoss(temperature=args.supcon_temp).to(device)
@@ -767,9 +835,10 @@ def main():
                 epoch=0,
                 prev_proto_bank=None,
             )
-        except RuntimeError as e:
-            # 例如: 该折目标有标签集全为 y<0, 无法构建原型
+        except Exception as e:
+            # 例如: 该折目标有标签集全为 y<0, 无法构建原型 / 数据损坏等
             print(f"[Error] Skip Fold {fold_idx} when building proto_bank: {e}")
+            traceback.print_exc()
             continue
 
         # 4.1 类别权重（可选）
@@ -786,6 +855,10 @@ def main():
         # 5. 训练循环
         best_val_metric = float("-inf")
         best_val_record = None
+        no_improve = 0  # early stop计数(按评估次数)
+        warmup_best = float('-inf')
+        warmup_no_improve = 0
+        recent_val_scores = []
         for epoch in range(1, args.epochs + 1):
             proto_bank = build_proto_bank(
                 model,
@@ -832,28 +905,106 @@ def main():
                 epoch, model,
                 loader_src, loader_tgt_l, loader_tgt_u,
                 optimizer, supcon_loss, args, proto_bank, device, class_weights, unsupcon_loss,
+                ema_model=ema_model,
+                ema_decay=float(getattr(args, 'ema_decay', 0.999)),
             )
 
-            val_metrics = eval_on_split(
-                model,
-                val_loader,
-                device=device,
-                num_classes=args.num_classes,
-            )
-            hist_val_metrics.append({"epoch": epoch, **val_metrics})
-            
-            # 简单打印一下，防止输出太长
-            if epoch % 10 == 0 or epoch == 1:
-                print(
-                    f"[Fold {fold_idx} | Epoch {epoch}] "
-                    f"sup={stats['loss_sup']:.4f} "
-                    f"pl={stats['loss_pl']:.4f} "
-                    f"con={stats['loss_con']:.4f} "
-                    f"pl_ratio={stats['pl_ratio']:.4f} "
-                    f"val_acc={val_metrics['acc']:.4f} "
-                    f"val_f1={val_metrics['f1']:.4f} "
-                    f"val_auc={val_metrics['auc'] if val_metrics['auc'] is not None else 'None'}"
+            do_eval = (epoch % max(1, int(getattr(args, 'val_interval', 1))) == 0) or (epoch == 1) or (epoch == args.epochs)
+            if do_eval:
+                val_metrics = eval_on_split(
+                     (ema_model if (ema_model is not None and getattr(args, 'ema_eval', False)) else model),
+                    val_loader,
+                    device=device,
+                    num_classes=args.num_classes,
                 )
+                hist_val_metrics.append({'epoch': epoch, **val_metrics})
+
+                if epoch % 10 == 0 or epoch == 1:
+                    print(
+                        f"[Fold {fold_idx} | Epoch {epoch}] "
+                        f"sup={stats['loss_sup']:.4f} "
+                        f"pl={stats['loss_pl']:.4f} "
+                        f"con={stats['loss_con']:.4f} "
+                        f"pl_ratio={stats['pl_ratio']:.4f} "
+                        f"val_acc={val_metrics['acc']:.4f} "
+                        f"val_f1={val_metrics['f1']:.4f} "
+                        f"val_auc={val_metrics['auc'] if val_metrics['auc'] is not None else 'None'}"
+                    )
+
+                # --- 统一成一个标量用于warmup/early-stop/best ---
+
+                metric = getattr(args, 'best_metric', 'acc')
+
+                if metric == 'auc' and (val_metrics.get('auc', None) is not None):
+
+                    raw_score = float(val_metrics['auc'])
+
+                elif metric == 'f1':
+
+                    raw_score = float(val_metrics['f1'])
+
+                else:
+
+                    raw_score = float(val_metrics['acc'])
+
+
+                # 可选：滑动平均，降低val抖动导致的“选错best/早停”
+
+                k = int(getattr(args, 'best_smooth_k', 1))
+
+                if k > 1:
+
+                    recent_val_scores.append(raw_score)
+
+                    if len(recent_val_scores) > k:
+
+                        recent_val_scores = recent_val_scores[-k:]
+
+                    val_score = float(sum(recent_val_scores) / len(recent_val_scores))
+
+                else:
+
+                    val_score = raw_score
+
+
+                # --- 自适应提前结束 warmup（可选）---
+                if getattr(args, 'adaptive_warmup', False) and (epoch <= args.warmup_epochs) and (epoch >= getattr(args, 'warmup_min_epochs', 0)):
+                    if val_score > warmup_best + float(getattr(args, 'warmup_min_delta', 0.0)):
+                        warmup_best = val_score
+                        warmup_no_improve = 0
+                    else:
+                        warmup_no_improve += 1
+                    if warmup_no_improve >= int(getattr(args, 'warmup_patience', 3)):
+                        args.warmup_epochs = epoch
+                        print(f"[Fold {fold_idx}] Early end warmup at epoch={epoch} (metric={metric}, score={val_score:.4f})")
+
+                # --- best checkpoint（可选：仅warmup后开始选）---
+                allow_best = (not getattr(args, 'select_after_warmup', False)) or (epoch > args.warmup_epochs)
+                if allow_best:
+                    min_delta = float(getattr(args, 'best_min_delta', 0.0))
+                    if val_score > best_val_metric + min_delta:
+                        best_val_metric = val_score
+                        best_val_record = {
+                            'epoch': epoch,
+                            'metric_name': metric,
+                            'metric_value': val_score,
+                            'raw_metric_value': raw_score,
+                            'smooth_k': int(getattr(args, 'best_smooth_k', 1)),
+                            'metrics': val_metrics,
+                        }
+                        no_improve = 0
+                        to_save = (ema_model if (ema_model is not None and getattr(args, 'ema_eval', False)) else model)
+                        torch.save(to_save.state_dict(), fold_run_dir / 'best_model.pt')
+                        with open(fold_run_dir / 'best_metrics.json', 'w') as f:
+                            json.dump(best_val_record, f, indent=2)
+                    else:
+                        no_improve += 1
+
+                    # --- early stopping（按评估次数计）---
+                    if (epoch > args.warmup_epochs) and int(getattr(args, 'early_stop_patience', 0)) > 0:
+                        if no_improve >= int(args.early_stop_patience):
+                            print(f"[Fold {fold_idx}] Early stopping at epoch={epoch} (best={best_val_metric:.4f} at epoch {best_val_record['epoch'] if best_val_record else -1})")
+                            break
 
             hist_sup.append(stats["loss_sup"])
             hist_pl.append(stats["loss_pl"])
