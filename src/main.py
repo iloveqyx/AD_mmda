@@ -48,7 +48,7 @@ CUDA_VISIBLE_DEVICES=0 python -m src.main \
   --lr 1e-5 \
   --use_class_weight \
   --device cuda \
-  --exp_name "每轮计算类别权重+无监督对比" 
+  --exp_name "验证集得到最佳模型" 
 '''
 print(f"CUDA_VISIBLE_DEVICES: {os.environ.get('CUDA_VISIBLE_DEVICES')}")
 print(f"PyTorch uses device: {torch.cuda.get_device_name(0)}")
