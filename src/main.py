@@ -39,8 +39,8 @@ conda activate proto_mmda
 cd /home/ad_group1/AD_mmda2
 
 CUDA_VISIBLE_DEVICES=0 python -m src.main \
-  --source Pitt \
-  --target Lu \
+  --source Lu \
+  --target Pitt \
   --data_root /home/ad_group1/data \
   --epochs 500 \
   --batch_size 64 \
@@ -860,12 +860,12 @@ def main():
             hist_con.append(stats["loss_con"])
             hist_pl_ratio.append(stats["pl_ratio"])
             
-            val_score = val_metrics["f1"]
+            val_score = val_metrics["acc"]
             if val_score > best_val_metric:
                 best_val_metric = val_score
                 best_val_record = {
                     "epoch": epoch,
-                    "metric_name": "f1",
+                    "metric_name": "acc",
                     "metric_value": val_score,
                     "metrics": val_metrics,
                 }
