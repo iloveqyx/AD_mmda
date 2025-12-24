@@ -338,7 +338,6 @@ def train_one_epoch(
     unsupcon_loss: 'UnsupervisedContrastiveLoss' = None,
     ema_model: nn.Module = None,
     ema_decay: float = 0.999,
-    warmup_epochs: int = None,
 ) -> Tuple[Dict[str, float], int]:
     
     model.train()
@@ -355,7 +354,6 @@ def train_one_epoch(
 
     lam_sup_src = getattr(args, "lam_sup_src", 1.0)
     lam_sup_tgt = getattr(args, "lam_sup_tgt", 1.0)
-    warmup_epochs = getattr(args, "warmup_epochs", 0) if warmup_epochs is None else warmup_epochs
 
     # ---- target-centric 采样 ----
     iter_src   = itertools.cycle(loader_src)
@@ -919,7 +917,6 @@ def main():
                 unsupcon_loss=unsupcon_loss,
                 ema_model=ema_model,
                 ema_decay=float(getattr(args, 'ema_decay', 0.999)),
-                warmup_epochs=fold_warmup_epochs,
             )
 
             do_eval = (epoch % max(1, int(getattr(args, 'val_interval', 1))) == 0) or (epoch == 1) or (epoch == args.epochs)
