@@ -341,6 +341,7 @@ def train_one_epoch(
     unsupcon_loss: 'UnsupervisedContrastiveLoss' = None,
     ema_model: nn.Module = None,
     ema_decay: float = 0.999,
+    warmup_epochs: int = None,
 ) -> Dict[str, float]:
     
     model.train()
@@ -357,6 +358,7 @@ def train_one_epoch(
 
     lam_sup_src = getattr(args, "lam_sup_src", 1.0)
     lam_sup_tgt = getattr(args, "lam_sup_tgt", 1.0)
+    warmup_epochs = getattr(args, "warmup_epochs", 0) if warmup_epochs is None else warmup_epochs
 
     # ---- target-centric 采样 ----
     iter_src   = itertools.cycle(loader_src)
@@ -396,7 +398,7 @@ def train_one_epoch(
         loss_sup = loss_sup_src + loss_sup_tgt
 
         # 3) 无标签 / 伪标签
-        is_warmup = epoch <= getattr(args, "warmup_epochs", 0)
+        is_warmup = epoch <= warmup_epochs
         u_n = int(y_u.size(0))
 
         if is_warmup:
@@ -465,7 +467,7 @@ def train_one_epoch(
         # max(unsup_start_epoch, warmup_epochs + 1)
         effective_unsup_start = max(
             getattr(args, "unsup_start_epoch", 1),
-            getattr(args, "warmup_epochs", 0) + 1,
+            warmup_epochs + 1,
         )
         if (
             unsupcon_loss is not None
@@ -494,7 +496,7 @@ def train_one_epoch(
             # 伪标签loss可选ramp-up：防止一出warmup梯度过猛导致不稳定
             ramp = int(getattr(args, 'pl_ramp_epochs', 0))
             if ramp > 0:
-                prog = float(epoch - getattr(args, 'warmup_epochs', 0)) / float(ramp)
+                prog = float(epoch - warmup_epochs) / float(ramp)
                 prog = 0.0 if prog < 0 else (1.0 if prog > 1.0 else prog)
                 lam_pl_eff = float(args.lam_pl) * prog
             else:
@@ -558,10 +560,12 @@ def build_proto_bank(
     device: torch.device,
     epoch: int,
     prev_proto_bank: Dict[str, torch.Tensor] = None,
+    warmup_epochs: int = None,
 ) -> Dict[str, torch.Tensor]:
     
     model.eval()
-    is_warmup = epoch <= args.warmup_epochs
+    warmup_epochs = getattr(args, "warmup_epochs", 0) if warmup_epochs is None else warmup_epochs
+    is_warmup = epoch <= warmup_epochs
 
     # 1) 目标有标签原型
     zf_lbl_list, za_lbl_list, zt_lbl_list, y_lbl_list = [], [], [], []
@@ -767,6 +771,8 @@ def main():
     for fold_idx in range(1, 6):
 
         print(f"\n{'='*20} Start Fold {fold_idx} / 5 {'='*20}")
+        original_warmup_epochs = args.warmup_epochs
+        fold_warmup_epochs = original_warmup_epochs
         
         # 1. 构造当前折的路径并更新到 args 中
         # 注意：源域只需 train.pt，目标域需要 tgt_labeled, tgt_unlabeled, val, test
@@ -834,6 +840,7 @@ def main():
                 device=device,
                 epoch=0,
                 prev_proto_bank=None,
+                warmup_epochs=fold_warmup_epochs,
             )
         except Exception as e:
             # 例如: 该折目标有标签集全为 y<0, 无法构建原型 / 数据损坏等
@@ -869,11 +876,12 @@ def main():
                 device=device,
                 epoch=epoch,
                 prev_proto_bank=proto_bank,
+                warmup_epochs=fold_warmup_epochs,
             )
 
-            if args.use_class_weight and epoch > args.warmup_epochs:
+            if args.use_class_weight and epoch > fold_warmup_epochs:
                 update_interval = getattr(args, "class_weight_update_interval", 1)
-                if update_interval > 0 and (epoch - args.warmup_epochs) % update_interval == 0:
+                if update_interval > 0 and (epoch - fold_warmup_epochs) % update_interval == 0:
                     was_training = model.training
                     model.eval()
                     class_weights = compute_class_weights(
@@ -907,6 +915,7 @@ def main():
                 optimizer, supcon_loss, args, proto_bank, device, class_weights, unsupcon_loss,
                 ema_model=ema_model,
                 ema_decay=float(getattr(args, 'ema_decay', 0.999)),
+                warmup_epochs=fold_warmup_epochs,
             )
 
             do_eval = (epoch % max(1, int(getattr(args, 'val_interval', 1))) == 0) or (epoch == 1) or (epoch == args.epochs)
@@ -968,18 +977,18 @@ def main():
 
 
                 # --- 自适应提前结束 warmup（可选）---
-                if getattr(args, 'adaptive_warmup', False) and (epoch <= args.warmup_epochs) and (epoch >= getattr(args, 'warmup_min_epochs', 0)):
+                if getattr(args, 'adaptive_warmup', False) and (epoch <= fold_warmup_epochs) and (epoch >= getattr(args, 'warmup_min_epochs', 0)):
                     if val_score > warmup_best + float(getattr(args, 'warmup_min_delta', 0.0)):
                         warmup_best = val_score
                         warmup_no_improve = 0
                     else:
                         warmup_no_improve += 1
                     if warmup_no_improve >= int(getattr(args, 'warmup_patience', 3)):
-                        args.warmup_epochs = epoch
+                        fold_warmup_epochs = epoch
                         print(f"[Fold {fold_idx}] Early end warmup at epoch={epoch} (metric={metric}, score={val_score:.4f})")
 
                 # --- best checkpoint（可选：仅warmup后开始选）---
-                allow_best = (not getattr(args, 'select_after_warmup', False)) or (epoch > args.warmup_epochs)
+                allow_best = (not getattr(args, 'select_after_warmup', False)) or (epoch > fold_warmup_epochs)
                 if allow_best:
                     min_delta = float(getattr(args, 'best_min_delta', 0.0))
                     if val_score > best_val_metric + min_delta:
@@ -1001,7 +1010,7 @@ def main():
                         no_improve += 1
 
                     # --- early stopping（按评估次数计）---
-                    if (epoch > args.warmup_epochs) and int(getattr(args, 'early_stop_patience', 0)) > 0:
+                    if (epoch > fold_warmup_epochs) and int(getattr(args, 'early_stop_patience', 0)) > 0:
                         if no_improve >= int(args.early_stop_patience):
                             print(f"[Fold {fold_idx}] Early stopping at epoch={epoch} (best={best_val_metric:.4f} at epoch {best_val_record['epoch'] if best_val_record else -1})")
                             break
@@ -1010,19 +1019,6 @@ def main():
             hist_pl.append(stats["loss_pl"])
             hist_con.append(stats["loss_con"])
             hist_pl_ratio.append(stats["pl_ratio"])
-            
-            val_score = val_metrics["acc"]
-            if val_score > best_val_metric:
-                best_val_metric = val_score
-                best_val_record = {
-                    "epoch": epoch,
-                    "metric_name": "acc",
-                    "metric_value": val_score,
-                    "metrics": val_metrics,
-                }
-                torch.save(model.state_dict(), fold_run_dir / "best_model.pt")
-                with open(fold_run_dir / "best_metrics.json", "w") as f:
-                    json.dump(best_val_record, f, indent=2)
 
         # === 保存该 Fold 训练 log ===
         log_dict = {
@@ -1032,6 +1028,8 @@ def main():
             "pl_ratio": hist_pl_ratio,
             "val": hist_val_metrics,
         }
+
+        args.warmup_epochs = original_warmup_epochs
         with open(fold_run_dir / "train_log.json", "w") as f:
             json.dump(log_dict, f, indent=2)
         with open(fold_run_dir / "val_metrics.json", "w") as f:
