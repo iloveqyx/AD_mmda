@@ -5,7 +5,7 @@
 # 将伪标签数据纳入原型计算
 import os
 import argparse
-from typing import Dict, Any
+from typing import Dict, Any, Tuple
 from pathlib import Path
 from datetime import datetime
 import json
@@ -149,6 +149,8 @@ def parse_args():
     parser.add_argument("--lr", type=float, default=1e-5)
     parser.add_argument("--warmup_epochs", type=int, default=10,
                         help="前多少个 epoch 只用监督/对比学习，不使用伪标签损失")
+    parser.add_argument("--warmup_steps", type=int, default=0,
+                        help="固定warmup的优化步数(>0则优先生效，不再受batchsize影响)")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", type=str, default="cuda")
 
@@ -320,6 +322,7 @@ def build_dataloaders(args) -> Dict[str, DataLoader]:
 
 def train_one_epoch(
     epoch: int,
+    global_step: int,
     model: nn.Module,
     loader_src: DataLoader,
     loader_tgt_l: DataLoader,
@@ -329,12 +332,14 @@ def train_one_epoch(
     args,
     proto_bank: Dict[str, torch.Tensor],
     device: torch.device,
+    warmup_steps: int,
+    steps_per_epoch: int,
     class_weights: torch.Tensor = None,
     unsupcon_loss: 'UnsupervisedContrastiveLoss' = None,
     ema_model: nn.Module = None,
     ema_decay: float = 0.999,
     warmup_epochs: int = None,
-) -> Dict[str, float]:
+) -> Tuple[Dict[str, float], int]:
     
     model.train()
     supcon_loss.train()
@@ -390,7 +395,7 @@ def train_one_epoch(
         loss_sup = loss_sup_src + loss_sup_tgt
 
         # 3) 无标签 / 伪标签
-        is_warmup = epoch <= warmup_epochs
+        is_warmup = (global_step < warmup_steps)
         u_n = int(y_u.size(0))
 
         if is_warmup:
@@ -511,6 +516,7 @@ def train_one_epoch(
 
         loss.backward()
         optimizer.step()
+        global_step += 1
         if ema_model is not None:
             with torch.no_grad():
                 # 参数EMA
@@ -539,7 +545,7 @@ def train_one_epoch(
         "pl_ratio": (total_pl_n / max(1, total_u_n)),
         "pl_count": total_pl_n,
     }
-    return stats
+    return stats, global_step
 
 
 @torch.no_grad()
@@ -856,6 +862,12 @@ def main():
         best_val_record = None
         no_improve = 0  # early stop计数(按评估次数)
         recent_val_scores = []
+        steps_per_epoch = len(loader_tgt_u)
+        global_step = 0
+        fold_warmup_steps = int(getattr(args, "warmup_steps", 0))
+        if fold_warmup_steps <= 0:
+            fold_warmup_steps = int(args.warmup_epochs) * steps_per_epoch
+        print(f"[Fold {fold_idx}] steps_per_epoch={steps_per_epoch}, warmup_steps={fold_warmup_steps}")
         for epoch in range(1, args.epochs + 1):
             proto_bank = build_proto_bank(
                 model,
@@ -899,10 +911,22 @@ def main():
                         {"epoch": epoch, "weights": class_weights_value}
                     )
 
-            stats = train_one_epoch(
-                epoch, model,
-                loader_src, loader_tgt_l, loader_tgt_u,
-                optimizer, supcon_loss, args, proto_bank, device, class_weights, unsupcon_loss,
+            stats, global_step = train_one_epoch(
+                epoch,
+                global_step,
+                model,
+                loader_src,
+                loader_tgt_l,
+                loader_tgt_u,
+                optimizer,
+                supcon_loss,
+                args,
+                proto_bank,
+                device,
+                warmup_steps=fold_warmup_steps,
+                steps_per_epoch=steps_per_epoch,
+                class_weights=class_weights,
+                unsupcon_loss=unsupcon_loss,
                 ema_model=ema_model,
                 ema_decay=float(getattr(args, 'ema_decay', 0.999)),
                 warmup_epochs=fold_warmup_epochs,
