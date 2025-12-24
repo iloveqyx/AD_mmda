@@ -557,14 +557,11 @@ def build_proto_bank(
     num_classes: int,
     args,
     device: torch.device,
-    epoch: int,
+    is_warmup: bool,
     prev_proto_bank: Dict[str, torch.Tensor] = None,
-    warmup_epochs: int = None,
 ) -> Dict[str, torch.Tensor]:
     
     model.eval()
-    warmup_epochs = getattr(args, "warmup_epochs", 0) if warmup_epochs is None else warmup_epochs
-    is_warmup = epoch <= warmup_epochs
 
     # 1) 目标有标签原型
     zf_lbl_list, za_lbl_list, zt_lbl_list, y_lbl_list = [], [], [], []
@@ -837,9 +834,8 @@ def main():
                 num_classes=args.num_classes,
                 args=args,
                 device=device,
-                epoch=0,
+                is_warmup=True,
                 prev_proto_bank=None,
-                warmup_epochs=fold_warmup_epochs,
             )
         except Exception as e:
             # 例如: 该折目标有标签集全为 y<0, 无法构建原型 / 数据损坏等
@@ -870,6 +866,7 @@ def main():
             fold_warmup_steps = int(args.warmup_epochs) * steps_per_epoch
         print(f"[Fold {fold_idx}] steps_per_epoch={steps_per_epoch}, warmup_steps={fold_warmup_steps}")
         for epoch in range(1, args.epochs + 1):
+            is_warmup_epoch = global_step < fold_warmup_steps
             proto_bank = build_proto_bank(
                 model,
                 loader_tgt_l=proto_tgt_l_loader,
@@ -877,9 +874,8 @@ def main():
                 num_classes=args.num_classes,
                 args=args,
                 device=device,
-                epoch=epoch,
+                is_warmup=is_warmup_epoch,
                 prev_proto_bank=proto_bank,
-                warmup_epochs=fold_warmup_epochs,
             )
 
             if args.use_class_weight and epoch > fold_warmup_epochs:
