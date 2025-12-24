@@ -460,16 +460,11 @@ def train_one_epoch(
 
         # 4.1 无监督对比（SimCLR 两视角），基于未标注 batch
         loss_unsup = torch.tensor(0.0, device=device)
-        # 为了与 warmup 阶段解耦，这里实际启用轮次为
-        # max(unsup_start_epoch, warmup_epochs + 1)
-        effective_unsup_start = max(
-            getattr(args, "unsup_start_epoch", 1),
-            warmup_epochs + 1,
-        )
+        unsup_start_step = int(getattr(args, "unsup_start_epoch", 0)) * steps_per_epoch
         if (
             unsupcon_loss is not None
             and args.lam_unsup > 0
-            and epoch >= effective_unsup_start
+            and global_step >= unsup_start_step
         ):
             noise_std = getattr(args, "unsup_noise_std", 0.0)
             if noise_std > 0:
@@ -478,8 +473,6 @@ def train_one_epoch(
             else:
                 Xa_u_2, Xt_u_2 = Xa_u, Xt_u
 
-            # 复用当前前向得到的 zf_u 作为第一视角，仅对第二视角施加噪声，
-            # 既减少一次前向计算，也避免视角过于相近。
             logits_u2, probs_u2, (za_u2, zt_u2, zf_u2, g_u2) = model(Xa_u_2, Xt_u_2)
             loss_unsup = unsupcon_loss(zf_u, zf_u2)
 
