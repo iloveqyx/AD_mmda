@@ -492,7 +492,6 @@ def train_one_epoch(
                 lam_pl_eff = float(args.lam_pl)
 
         lam_con_eff = args.lam_con
-        lam_con_eff = args.lam_con
 
         loss = (
             args.lam_sup * (
@@ -759,7 +758,6 @@ def main():
 
         print(f"\n{'='*20} Start Fold {fold_idx} / 5 {'='*20}")
         original_warmup_epochs = args.warmup_epochs
-        fold_warmup_epochs = original_warmup_epochs
         
         # 1. 构造当前折的路径并更新到 args 中
         # 注意：源域只需 train.pt，目标域需要 tgt_labeled, tgt_unlabeled, val, test
@@ -869,9 +867,10 @@ def main():
                 prev_proto_bank=proto_bank,
             )
 
-            if args.use_class_weight and epoch > fold_warmup_epochs:
-                update_interval = getattr(args, "class_weight_update_interval", 1)
-                if update_interval > 0 and (epoch - fold_warmup_epochs) % update_interval == 0:
+            warmup_done = (global_step >= fold_warmup_steps)
+            if args.use_class_weight and warmup_done:
+                update_interval = int(getattr(args, "class_weight_update_interval", 1))
+                if update_interval > 0 and (epoch % update_interval == 0):
                     was_training = model.training
                     model.eval()
                     class_weights = compute_class_weights(
@@ -919,6 +918,7 @@ def main():
                 ema_decay=float(getattr(args, 'ema_decay', 0.999)),
             )
 
+            warmup_done = (global_step >= fold_warmup_steps)
             do_eval = (epoch % max(1, int(getattr(args, 'val_interval', 1))) == 0) or (epoch == 1) or (epoch == args.epochs)
             if do_eval:
                 val_metrics = eval_on_split(
@@ -978,7 +978,7 @@ def main():
 
 
                 # --- best checkpoint（可选：仅warmup后开始选）---
-                allow_best = (not getattr(args, 'select_after_warmup', False)) or (epoch > fold_warmup_epochs)
+                allow_best = (not getattr(args, 'select_after_warmup', False)) or warmup_done
                 if allow_best:
                     min_delta = float(getattr(args, 'best_min_delta', 0.0))
                     if val_score > best_val_metric + min_delta:
@@ -1000,7 +1000,7 @@ def main():
                         no_improve += 1
 
                     # --- early stopping（按评估次数计）---
-                    if (epoch > fold_warmup_epochs) and int(getattr(args, 'early_stop_patience', 0)) > 0:
+                    if warmup_done and int(getattr(args, 'early_stop_patience', 0)) > 0:
                         if no_improve >= int(args.early_stop_patience):
                             print(f"[Fold {fold_idx}] Early stopping at epoch={epoch} (best={best_val_metric:.4f} at epoch {best_val_record['epoch'] if best_val_record else -1})")
                             break
