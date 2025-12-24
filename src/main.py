@@ -491,13 +491,14 @@ def train_one_epoch(
             lam_pl_eff = 0.0
         else:
             # 伪标签loss可选ramp-up：防止一出warmup梯度过猛导致不稳定
-            ramp = int(getattr(args, 'pl_ramp_epochs', 0))
-            if ramp > 0:
-                prog = float(epoch - warmup_epochs) / float(ramp)
+            ramp_epochs = int(getattr(args, "pl_ramp_epochs", 0))
+            if ramp_epochs > 0:
+                ramp_steps = max(1, ramp_epochs * steps_per_epoch)
+                prog = float(global_step - warmup_steps) / float(ramp_steps)
                 prog = 0.0 if prog < 0 else (1.0 if prog > 1.0 else prog)
                 lam_pl_eff = float(args.lam_pl) * prog
             else:
-                lam_pl_eff = args.lam_pl
+                lam_pl_eff = float(args.lam_pl)
 
         lam_con_eff = args.lam_con
         lam_con_eff = args.lam_con
