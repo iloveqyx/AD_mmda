@@ -47,10 +47,6 @@ CUDA_VISIBLE_DEVICES=0
   --data_root /home/ad_group1/data \
   --epochs 200 \
   --warmup_epochs 120 \
-  --adaptive_warmup \
-  --warmup_min_epochs 20 \
-  --warmup_patience 2 \
-  --warmup_min_delta 0.001 \
   --val_interval 5 \
   --best_metric acc \
   --best_smooth_k 3 \
@@ -170,10 +166,6 @@ def parse_args():
     parser.add_argument("--ema_eval", action="store_true", help="用EMA权重做val/test评估与保存best")
     parser.add_argument("--strict_folds", action="store_true", help="若某折数据缺失则直接报错(默认跳过)")
     parser.add_argument("--pl_ramp_epochs", type=int, default=0, help="warmup后伪标签loss权重ramp-up的epoch数(0表示不ramp)")
-    parser.add_argument("--warmup_min_delta", type=float, default=1e-3, help="自适应warmup：认为有提升的最小幅度")
-    parser.add_argument("--warmup_patience", type=int, default=3, help="自适应warmup：连续多少次val无提升就结束warmup")
-    parser.add_argument("--warmup_min_epochs", type=int, default=10, help="自适应warmup最少持续epoch数")
-    parser.add_argument("--adaptive_warmup", action="store_true", help="根据val表现自动提前结束warmup")
     parser.add_argument("--early_stop_min_delta", type=float, default=0.0, help="早停判断的最小提升幅度")
     parser.add_argument("--early_stop_patience", type=int, default=0, help="早停patience(按val_interval计数); 0表示不早停")
     parser.add_argument("--select_after_warmup", action="store_true", help="仅在warmup之后才允许刷新best(更稳)")
@@ -863,8 +855,6 @@ def main():
         best_val_metric = float("-inf")
         best_val_record = None
         no_improve = 0  # early stop计数(按评估次数)
-        warmup_best = float('-inf')
-        warmup_no_improve = 0
         recent_val_scores = []
         for epoch in range(1, args.epochs + 1):
             proto_bank = build_proto_bank(
@@ -975,17 +965,6 @@ def main():
 
                     val_score = raw_score
 
-
-                # --- 自适应提前结束 warmup（可选）---
-                if getattr(args, 'adaptive_warmup', False) and (epoch <= fold_warmup_epochs) and (epoch >= getattr(args, 'warmup_min_epochs', 0)):
-                    if val_score > warmup_best + float(getattr(args, 'warmup_min_delta', 0.0)):
-                        warmup_best = val_score
-                        warmup_no_improve = 0
-                    else:
-                        warmup_no_improve += 1
-                    if warmup_no_improve >= int(getattr(args, 'warmup_patience', 3)):
-                        fold_warmup_epochs = epoch
-                        print(f"[Fold {fold_idx}] Early end warmup at epoch={epoch} (metric={metric}, score={val_score:.4f})")
 
                 # --- best checkpoint（可选：仅warmup后开始选）---
                 allow_best = (not getattr(args, 'select_after_warmup', False)) or (epoch > fold_warmup_epochs)
