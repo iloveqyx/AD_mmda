@@ -39,26 +39,38 @@ Example Usage:
 conda activate proto_mmda
 cd /home/ad_group1/AD_mmda2
 
-CUDA_VISIBLE_DEVICES=0
-  python -m src.main \
-  --seed 42 \
+CUDA_VISIBLE_DEVICES=3
+python -m src.main \
+  --data_root /home/ad_group1/data \
   --source Pitt \
   --target Lu \
-  --data_root /home/ad_group1/data \
-  --epochs 200 \
-  --warmup_epochs 120 \
-  --val_interval 5 \
-  --best_metric acc \
-  --best_smooth_k 3 \
-  --best_min_delta 0.001 \
-  --select_after_warmup \
-  --early_stop_patience 8 \
-  --early_stop_min_delta 0.001 \
+  --device cuda \
+  --epochs 300 \
+  --batch_size 128 \
+  --lr 1e-5 \
+  --warmup_steps 200 \
+  --unsup_start_epoch 0 \
+  --lam_unsup 0.1 \
   --use_ema \
   --ema_decay 0.999 \
-  --ema_eval
+  --ema_eval \
+  --select_after_warmup \
+  --pl_ramp_epochs 20 \
+  --best_metric f1 \
+  --best_smooth_k 3 \
+  --best_min_delta 0.001 \
+  --early_stop_patience 0 \
+  --early_stop_min_delta 0.0005 \
+  --val_interval 1 \
+  --theta_h 0.55 \
+  --theta_a 0.9 \
+  --theta_t 0.80 \
+  --delta_a 0.1 \
+  --delta_t 0.05 \
+  --kl_eps 2.0 \
+  --result_root result \
+  --exp_name theta_a0.9_t0.80_h0.55
 
- 
 '''
 print(f"CUDA_VISIBLE_DEVICES: {os.environ.get('CUDA_VISIBLE_DEVICES')}")
 if torch.cuda.is_available():
@@ -115,14 +127,14 @@ def parse_args():
     parser.add_argument("--lam_sup", type=float, default=1.0)
     parser.add_argument("--lam_sup_src", type=float, default=1.0)
     parser.add_argument("--lam_sup_tgt", type=float, default=2.0)
-    parser.add_argument("--lam_pl",  type=float, default=10.0)
+    parser.add_argument("--lam_pl",  type=float, default=2.0)#伪标签损失权重
     parser.add_argument("--lam_con", type=float, default=0.3)
     parser.add_argument("--lam_proto", type=float, default=0.0)
     parser.add_argument("--lam_ent", type=float, default=0.0)
     parser.add_argument("--lam_unsup", type=float, default=0.1, help="无监督对比损失权重")
     parser.add_argument("--unsup_temp", type=float, default=0.1, help="无监督对比温度")
     parser.add_argument("--unsup_noise_std", type=float, default=0.01, help="无监督对比视角高斯噪声 std")
-    parser.add_argument("--unsup_start_epoch", type=int, default=1, help="从第几轮开始启用无监督对比")
+    parser.add_argument("--unsup_start_epoch", type=int, default=0, help="从第几轮开始启用无监督对比")
 
     # 对比学习温度
     parser.add_argument("--supcon_temp", type=float, default=0.1)
@@ -145,11 +157,11 @@ def parse_args():
 
     # 训练超参
     parser.add_argument("--epochs", type=int, default=500)
-    parser.add_argument("--batch_size", type=int, default=64)
+    parser.add_argument("--batch_size", type=int, default=256)
     parser.add_argument("--lr", type=float, default=1e-5)
-    parser.add_argument("--warmup_epochs", type=int, default=10,
+    parser.add_argument("--warmup_epochs", type=int, default=200,
                         help="前多少个 epoch 只用监督/对比学习，不使用伪标签损失")
-    parser.add_argument("--warmup_steps", type=int, default=0,
+    parser.add_argument("--warmup_steps", type=int, default=5000,
                         help="固定warmup的优化步数(>0则优先生效，不再受batchsize影响)")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", type=str, default="cuda")
@@ -167,9 +179,9 @@ def parse_args():
     parser.add_argument("--ema_decay", type=float, default=0.999, help="EMA衰减系数(0.99~0.9999)")
     parser.add_argument("--ema_eval", action="store_true", help="用EMA权重做val/test评估与保存best")
     parser.add_argument("--strict_folds", action="store_true", help="若某折数据缺失则直接报错(默认跳过)")
-    parser.add_argument("--pl_ramp_epochs", type=int, default=0, help="warmup后伪标签loss权重ramp-up的epoch数(0表示不ramp)")
-    parser.add_argument("--early_stop_min_delta", type=float, default=0.0, help="早停判断的最小提升幅度")
-    parser.add_argument("--early_stop_patience", type=int, default=0, help="早停patience(按val_interval计数); 0表示不早停")
+    parser.add_argument("--pl_ramp_epochs", type=int, default=5, help="warmup后伪标签loss权重ramp-up的epoch数(0表示不ramp)")
+    parser.add_argument("--early_stop_min_delta", type=float, default=0.0005, help="早停判断的最小提升幅度")
+    parser.add_argument("--early_stop_patience", type=int, default=40, help="早停patience(按val_interval计数); 0表示不早停")
     parser.add_argument("--select_after_warmup", action="store_true", help="仅在warmup之后才允许刷新best(更稳)")
     parser.add_argument("--best_min_delta", type=float, default=0.0, help="best指标的最小提升幅度(过滤抖动)")
     parser.add_argument("--best_smooth_k", type=int, default=1, help="best/早停使用val指标的滑动平均窗口(1表示不平滑)")
